@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6efaf7e1-eba7-4fe1-8504-c9b41513edee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.akce.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.clanky.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.kontakty.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.nabizime.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.podporovano.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_components.projekty.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/06c1c06b119b119adca0f3a34b0f219280aa2f49/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/06c1c06b119b119adca0f3a34b0f219280aa2f49/main.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="153">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -142,23 +133,23 @@
       <option name="presentableId" value="Default" />
       <updated>1565863961535</updated>
       <workItem from="1565863962618" duration="1965000" />
-      <workItem from="1565867563539" duration="9625000" />
+      <workItem from="1565867563539" duration="9678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11590000" />
+    <option name="totallyTimeSpent" value="11643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14255014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14255014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31628534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31628534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
