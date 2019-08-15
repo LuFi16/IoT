@@ -3,7 +3,7 @@
   padding: 0;
   margin: auto;
   background-color: $color-white;
-  box-shadow: 0 0 15px 0 $color-shadow;
+  @include c-box-shadow;
   border-radius: 10px;
   width: 50rem;
   position: relative;

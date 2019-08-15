@@ -106,4 +106,44 @@ body {
   margin: 0;
   padding: 0; }
 
+.c-section-nabizime_boxes {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center; }
+
+.c-section-nabizime_box {
+  box-shadow: 0 0 15px 0 #919191;
+  background-color: #ffffff;
+  max-width: 30rem;
+  margin: 2rem; }
+
+.c-section-nabizime-box_heading {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 4rem; }
+
+.c-section-nabizime-box_heading1 {
+  background-image: url("../img/articles/img-wire.png"); }
+
+.c-section-nabizime-box_heading2 {
+  background-image: url("../img/articles/img-wire2.png"); }
+
+.c-section-nabizime-box_heading-heading {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+.c-section-nabizime-box_img {
+  margin-bottom: 1rem; }
+
+.c-section-nabizime-box_text {
+  padding: 2rem;
+  margin: 0; }
+
 /*# sourceMappingURL=main.css.map */
