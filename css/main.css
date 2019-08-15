@@ -221,4 +221,19 @@ body {
   padding: 1rem;
   margin: 0; }
 
+.c-section-podporovano_logos {
+  box-sizing: border-box;
+  max-width: 58rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between; }
+
+.c-section-podporovano_logo {
+  max-height: 3rem;
+  max-width: 10rem;
+  margin: 1.5rem; }
+
 /*# sourceMappingURL=main.css.map */
