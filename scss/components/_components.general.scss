@@ -1,0 +1,22 @@
+
+/* COLORS */
+$color-primary: #038000;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-light: #FCFDFF;
+$color-green-dark: #004c2e;
+$color-green-darker: #003b24;
+$color-yellow: #fdab29;
+
+/* FONTS */
+$font-primary: "Titillium Web", sans-serif;
+
+/* SCREEN SIZE */
+$mobile:  650px;
+$tablet:  1024px;
+$desktop: 1320px;
+$wide:    1400px;
+
+body {
+  font-family: $font-primary;
+}
