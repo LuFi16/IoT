@@ -1,88 +1,56 @@
-/* COLORS */
-/* FONTS */
-/* SCREEN SIZE */
-/* CODE */
-body {
-  font-family: "Titillium Web", sans-serif;
-  margin: 0;
-  padding: 0; }
+/*
+Error: File to import not found or unreadable: components/components.projekty.
+        on line 7 of main.scss
 
-.c-header {
-  background-image: url("../img/header-img.png");
-  background-color: #69878c;
-  background-size: auto 100%;
-  margin: 0;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row; }
+2: @import "components/components.general";
+3: @import "components/components.buttons";
+4: @import "components/components.header";
+5: @import "components/components.navigation";
+6: @import "components/components.content";
+7: @import "components/components.projekty";
+8: @import "components/components.nabizime";
+9: @import "components/components.akce";
+10: @import "components/components.clanky";
+11: @import "components/components.podporovano";
+12: @import "components/components.kontakty";
 
-/* --- LIFE SCIENCES --- */
-.c-header_main {
-  box-sizing: border-box;
-  width: 40%;
-  padding: 5rem; }
-
-.c-header-main_heading {
-  margin: 0;
-  font-family: "Titillium Web Semibold", sans-serif;
-  font-size: 2.5rem; }
-
-.c-header-main_subheading {
-  font-family: "Titillium Web Semibold", sans-serif;
-  font-size: 1.5rem;
-  margin: 0 0 1rem 0; }
-
-.c-header-main_logos {
-  display: flex;
-  flex-direction: row; }
-
-.c-header-main_logo {
-  height: 2.7rem;
-  width: auto;
-  margin: 4rem 2rem 0 0; }
-
-/* --- O PROJEKTU --- */
-.c-header_about {
-  box-sizing: border-box;
-  background-color: #038000;
-  width: 60%;
-  border-radius: 20% 0 0 20% / 50% 0 0 50%;
-  padding: 5rem 5rem 5rem 6rem; }
-
-.c-header-about_heading {
-  margin: 0;
-  font-size: 1.2rem; }
-
-.c-header-about_text {
-  text-align: justify;
-  font-size: 0.8rem; }
-
-.c-nav {
-  padding: 0;
-  margin: auto;
-  background-color: #ffffff;
-  box-shadow: 0 0 15px 0 #919191;
-  border-radius: 10px;
-  width: 50rem;
-  position: relative;
-  top: -1.7rem; }
-
-.c-nav_ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
-.c-nav_li {
-  list-style-type: none;
-  padding: 1rem 0; }
-
-.c-nav-li_a {
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #000000;
-  width: 100%;
-  padding: 1rem 0; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+main.scss:7
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+C:/Ruby25-x64/bin/scss:23:in `load'
+C:/Ruby25-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: components/components.projekty.\A         on line 7 of main.scss\A \A 2: @import \"components/components.general\";\A 3: @import \"components/components.buttons\";\A 4: @import \"components/components.header\";\A 5: @import \"components/components.navigation\";\A 6: @import \"components/components.content\";\A 7: @import \"components/components.projekty\";\A 8: @import \"components/components.nabizime\";\A 9: @import \"components/components.akce\";\A 10: @import \"components/components.clanky\";\A 11: @import \"components/components.podporovano\";\A 12: @import \"components/components.kontakty\";"; }
