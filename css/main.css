@@ -1,6 +1,7 @@
 /* COLORS */
 /* FONTS */
 /* SCREEN SIZE */
+/* CODE */
 body {
   font-family: "Titillium Web", sans-serif;
   margin: 0;
@@ -55,5 +56,33 @@ body {
 .c-header-about_text {
   text-align: justify;
   font-size: 0.8rem; }
+
+.c-nav {
+  padding: 0;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 0 #919191;
+  border-radius: 10px;
+  width: 50rem;
+  position: relative;
+  top: -1.7rem; }
+
+.c-nav_ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.c-nav_li {
+  list-style-type: none;
+  padding: 1rem 0; }
+
+.c-nav-li_a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+  padding: 1rem 0; }
 
 /*# sourceMappingURL=main.css.map */
