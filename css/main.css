@@ -1,6 +1,7 @@
 /* COLORS */
 /* FONTS */
 /* SCREEN SIZE */
+/* OTHER */
 /* CODE */
 body {
   font-family: "Titillium Web", sans-serif;
@@ -134,7 +135,7 @@ body {
   margin: auto; }
 
 .c-content_size {
-  max-width: 70%;
+  max-width: 55rem;
   margin: auto; }
 
 .c-section_nabizime button {
@@ -194,5 +195,30 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
   text-transform: uppercase; }
+
+.c-section-clanky_article {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 55rem;
+  margin: 0 auto 2rem auto; }
+
+.c-section-clanky-article_heading {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 auto 0 0;
+  padding: 0.2rem 1rem;
+  font-family: "Titillium Web Semibold", sans-serif;
+  font-weight: 500; }
+
+.c-section-clanky-article_text {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  background-color: #F9F9F9; }
+
+.c-section-clanky-article-text_text {
+  padding: 1rem;
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

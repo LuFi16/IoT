@@ -1,0 +1,30 @@
+
+.c-section-clanky_article{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: $max-content-size;
+  margin: 0 auto 2rem auto;
+}
+
+.c-section-clanky-article_heading{
+  background-color: $color-black;
+  color: $color-white;
+  margin: 0 auto 0 0;
+  padding: 0.2rem 1rem;
+  @include font-primary-semibold;
+}
+
+.c-section-clanky-article_text{
+  border: 1px solid $color-border-line;
+  display: flex;
+  flex-direction: row;
+  background-color: $color-light;
+}
+
+.c-section-clanky-article_img{}
+
+.c-section-clanky-article-text_text{
+  padding: 1rem;
+  margin: 0;
+}

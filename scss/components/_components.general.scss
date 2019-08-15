@@ -3,7 +3,7 @@
 $color-primary: #038000;
 $color-black: #000000;
 $color-white: #ffffff;
-$color-light: #FCFDFF;
+$color-light: #F9F9F9;
 $color-green-dark: #004c2e;
 $color-green-darker: #003b24;
 $color-yellow: #fdab29;
@@ -46,6 +46,11 @@ $mobile:  650px;
 $tablet:  1024px;
 $desktop: 1320px;
 $wide:    1400px;
+
+
+/* OTHER */
+$max-content-size: 55rem;
+
 
 /* CODE */
 body {
