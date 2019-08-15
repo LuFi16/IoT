@@ -7,9 +7,13 @@ $color-light: #FCFDFF;
 $color-green-dark: #004c2e;
 $color-green-darker: #003b24;
 $color-yellow: #fdab29;
+$color-img-header: #69878c;
 
 /* FONTS */
 $font-primary: "Titillium Web", sans-serif;
+$font-primary-semibold: "Titillium Web Semibold", sans-serif;
+$font-primary-bold: "Titillium Web Bold", sans-serif;
+$font-primary-thin: "Titillium Web Light", sans-serif;
 
 /* SCREEN SIZE */
 $mobile:  650px;
@@ -19,4 +23,6 @@ $wide:    1400px;
 
 body {
   font-family: $font-primary;
+  margin: 0;
+  padding: 0;
 }

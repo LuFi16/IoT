@@ -2,6 +2,58 @@
 /* FONTS */
 /* SCREEN SIZE */
 body {
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.c-header {
+  background-image: url("../img/header-img.png");
+  background-color: #69878c;
+  background-size: auto 100%;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row; }
+
+/* --- LIFE SCIENCES --- */
+.c-header_main {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 5rem; }
+
+.c-header-main_heading {
+  margin: 0;
+  font-family: "Titillium Web Semibold", sans-serif;
+  font-size: 2.5rem; }
+
+.c-header-main_subheading {
+  font-family: "Titillium Web Semibold", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0; }
+
+.c-header-main_logos {
+  display: flex;
+  flex-direction: row; }
+
+.c-header-main_logo {
+  height: 2.7rem;
+  width: auto;
+  margin: 4rem 2rem 0 0; }
+
+/* --- O PROJEKTU --- */
+.c-header_about {
+  box-sizing: border-box;
+  background-color: #038000;
+  width: 60%;
+  border-radius: 20% 0 0 20% / 50% 0 0 50%;
+  padding: 5rem 5rem 5rem 6rem; }
+
+.c-header-about_heading {
+  margin: 0;
+  font-size: 1.2rem; }
+
+.c-header-about_text {
+  text-align: justify;
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=main.css.map */
