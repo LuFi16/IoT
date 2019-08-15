@@ -7,6 +7,24 @@ body {
   margin: 0;
   padding: 0; }
 
+.c-btn-primary {
+  background-color: transparent;
+  border: 2px solid #038000;
+  color: #038000;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer; }
+
+.c-btn-primary:active {
+  outline: none; }
+
+.c-btn-primary:focus {
+  outline: none; }
+
+.c-btn-primary:hover {
+  outline: none; }
+
 .c-header {
   background-image: url("../img/header-img.png");
   background-color: #69878c;
@@ -106,6 +124,9 @@ body {
   margin: 0;
   padding: 0; }
 
+.c-section_nabizime button {
+  margin-top: 2rem; }
+
 .c-section-nabizime_boxes {
   box-sizing: border-box;
   display: flex;
@@ -143,7 +164,7 @@ body {
   margin-bottom: 1rem; }
 
 .c-section-nabizime-box_text {
-  padding: 2rem;
+  padding: 2rem 3rem;
   margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

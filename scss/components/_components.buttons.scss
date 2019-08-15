@@ -1,0 +1,20 @@
+
+.c-btn-primary{
+  background-color: transparent;
+  border: 2px solid $color-primary;
+  color: $color-primary;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+
+.c-btn-primary:active{
+  outline: none;
+}
+.c-btn-primary:focus{
+  outline: none;
+}
+.c-btn-primary:hover{
+  outline: none;
+}
