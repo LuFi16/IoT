@@ -41,7 +41,7 @@
 .c-section-nabizime-box_heading-heading{
   color: $color-white;
   text-transform: uppercase;
-  font-weight: normal;
+  @include font-primary;
 }
 
 

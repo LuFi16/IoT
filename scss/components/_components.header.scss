@@ -19,12 +19,12 @@
 
 .c-header-main_heading{
   margin: 0;
-  font-family: $font-primary-semibold;
+  @include font-primary-semibold;
   font-size: 2.5rem;
 }
 
 .c-header-main_subheading{
-  font-family: $font-primary-semibold;
+  @include font-primary-semibold;
   font-size: 1.5rem;
   margin: 0 0 1rem 0;
 }
