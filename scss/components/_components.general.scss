@@ -19,6 +19,27 @@ $font-primary-semibold: "Titillium Web Semibold", sans-serif;
 $font-primary-bold: "Titillium Web Bold", sans-serif;
 $font-primary-thin: "Titillium Web Light", sans-serif;
 
+@mixin font-primary{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+
+@mixin font-primary-semibold{
+  font-family: "Titillium Web Semibold", sans-serif;
+  font-weight: 500;
+}
+
+@mixin font-primary-bold{
+  font-family: "Titillium Web Bold", sans-serif;
+  font-weight: 700;
+}
+
+@mixin font-primary-thin{
+  font-family: "Titillium Web Light", sans-serif;
+  font-weight: 200;
+}
+
+
 
 /* SCREEN SIZE */
 $mobile:  650px;

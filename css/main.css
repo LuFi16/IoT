@@ -124,6 +124,17 @@ body {
   margin: 0;
   padding: 0; }
 
+.c-content_gallery {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto; }
+
+.c-content_size {
+  max-width: 70%;
+  margin: auto; }
+
 .c-section_nabizime button {
   margin-top: 2rem; }
 
@@ -166,5 +177,19 @@ body {
 .c-section-nabizime-box_text {
   padding: 2rem 3rem;
   margin: 0; }
+
+.c-content-section_akce {
+  background-color: #000000;
+  color: #ffffff; }
+  .c-content-section_akce button {
+    margin-top: 2rem; }
+
+.c-section-akce_heading {
+  color: #000000; }
+
+.c-section-akce_subheading {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+
+.c-content-section_akce{
+  background-color: $color-black;
+  color: $color-white;
+  button{
+    margin-top: 2rem;
+  }
+}
+
+.c-section-akce_heading{
+  color: $color-black;
+}
+
+.c-section-akce_subheading{
+  @include font-primary;
+  text-transform: uppercase;
+}

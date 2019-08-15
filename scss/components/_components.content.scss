@@ -22,3 +22,16 @@
   margin: 0;
   padding: 0;
 }
+
+.c-content_gallery{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.c-content_size{
+  max-width: 70%;
+  margin: auto;
+}
