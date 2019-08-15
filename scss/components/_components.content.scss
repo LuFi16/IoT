@@ -6,6 +6,7 @@
   text-align: center;
   padding: 3rem 0 7rem 0;
 }
+
 .c-content_heading{
   border: 1px solid $color-border-line;
   background-color: $color-white;
@@ -17,6 +18,14 @@
   position: relative;
   top: -4.5rem;
 }
+
+.c-content_heading-first{
+    padding: 0 3rem 0.5rem 3rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
 
 .c-content_subheading{
   margin: 0;
