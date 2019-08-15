@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.podporovano.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.podporovano.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.podporovano.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.podporovano.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.kontakty.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.kontakty.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_components.kontakty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.kontakty.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +26,15 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="227" column="46" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="46" />
+                <state relative-caret-position="188">
+                  <caret line="240" column="39" selection-start-line="240" selection-start-column="39" selection-end-line="240" selection-end-column="39" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#2800#5578#0" />
                     <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -62,10 +63,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scss/components/_components.podporovano.scss">
+            <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+                <state relative-caret-position="236">
+                  <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -90,8 +91,9 @@
         <option value="$PROJECT_DIR$/scss/components/_components.general.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.content.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.clanky.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/components/_components.podporovano.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/components/_components.kontakty.scss" />
       </list>
     </option>
   </component>
@@ -162,12 +164,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565863961535</updated>
       <workItem from="1565863962618" duration="1965000" />
-      <workItem from="1565867563539" duration="16140000" />
+      <workItem from="1565867563539" duration="17082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18105000" />
+    <option name="totallyTimeSpent" value="19047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -222,9 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_components.projekty.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -270,24 +269,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.podporovano.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="227" column="46" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="46" />
+        <state relative-caret-position="188">
+          <caret line="240" column="39" selection-start-line="240" selection-start-column="39" selection-end-line="240" selection-end-column="39" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#2800#5578#0" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.podporovano.scss">
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="236">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
