@@ -85,4 +85,25 @@ body {
   width: 100%;
   padding: 1rem 0; }
 
+.c-content_section {
+  border-bottom: 1px solid gray;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0 7rem 0; }
+
+.c-content_heading {
+  border: 1px solid gray;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
+  margin: 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  position: relative;
+  top: -4.5rem; }
+
+.c-content_subheading {
+  margin: 0;
+  padding: 0; }
+
 /*# sourceMappingURL=main.css.map */
