@@ -17,4 +17,17 @@
 }
 .c-btn-primary:hover{
   outline: none;
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.c-header_btn{
+  border: none;
+  background-color: $color-black;
+  color: $color-white;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+.c-header_btn:hover{
+  background-color: transparentize($color-black, 0.5);
 }

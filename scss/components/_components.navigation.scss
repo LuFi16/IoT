@@ -28,5 +28,9 @@
   text-decoration: none;
   color: $color-black;
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
+}
+
+.c-nav-li_a:hover{
+  background-color: transparentize($color-primary, 0.8);
 }

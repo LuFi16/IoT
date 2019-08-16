@@ -24,7 +24,19 @@ body {
   outline: none; }
 
 .c-btn-primary:hover {
-  outline: none; }
+  outline: none;
+  background-color: #038000;
+  color: #ffffff; }
+
+.c-header_btn {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer; }
+
+.c-header_btn:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .c-header {
   background-image: url("../img/header-img.png");
@@ -104,7 +116,10 @@ body {
   text-decoration: none;
   color: #000000;
   width: 100%;
-  padding: 1rem 0; }
+  padding: 1rem 2rem; }
+
+.c-nav-li_a:hover {
+  background-color: rgba(3, 128, 0, 0.2); }
 
 .c-content_section {
   border-bottom: 1px solid gray;
@@ -302,6 +317,8 @@ body {
   .c-section-kontakty_contact a {
     color: #ffffff;
     text-decoration: none; }
+  .c-section-kontakty_contact a:hover {
+    text-decoration: underline; }
 
 .c-section-kontakty-contact_name {
   font-family: "Titillium Web Semibold", sans-serif;
