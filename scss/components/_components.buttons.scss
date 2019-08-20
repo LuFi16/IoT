@@ -5,7 +5,7 @@
   color: $color-primary;
   font-weight: bold;
   font-size: 1rem;
-  padding: 0.6rem 2rem;
+  padding: 0.3rem 2rem 0.1rem 2rem;
   cursor: pointer;
 }
 
@@ -30,4 +30,8 @@
 }
 .c-header_btn:hover{
   background-color: transparentize($color-black, 0.5);
+}
+
+.c-btn-articles{
+  padding: 0.3rem 0.4rem 0.1rem 0.4rem;
 }

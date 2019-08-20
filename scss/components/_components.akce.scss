@@ -8,10 +8,18 @@
 }
 
 .c-section-akce_heading{
-  color: $color-black;
+  color: $color-white;
 }
 
 .c-section-akce_subheading{
   @include font-primary;
   text-transform: uppercase;
+}
+
+.c-section-akce_box{
+  background-color: $color-akce-bcg;
+  border-radius: 0.3rem;
+  border: 1px solid $color-akce-line;
+  margin-top: 2.5rem;
+  padding: 1rem 2rem 2rem 2rem;
 }

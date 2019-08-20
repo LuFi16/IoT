@@ -1,11 +1,11 @@
 
 .c-section_kontakty{
-  background-color: $color-green-dark;
+  background-color: $color-primary;
   color: $color-white;
 }
 
 .c-section-kontakty_heading{
-  color: $color-black;
+  color: $color-white;
 }
 
 .c-section-kontakty_contacts{
@@ -16,7 +16,7 @@
 }
 
 .c-section-kontakty_contact{
-  background-color: $color-green-darker;
+  background-color: $color-green-dark;
   display: flex;
   flex-direction: column;
   a{
@@ -32,14 +32,26 @@
 .c-section-kontakty-contact_name{
   @include font-primary-semibold;
   margin: 0;
-  padding: 1rem 2rem 1rem 2rem;
-  border-bottom: 1px solid $color-green-dark;
+  padding: 0.8rem 2rem 1rem 2rem;
+  border-bottom: 1px solid $color-primary;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.c-section-kontakty-contact-name_logo{
+  width: 2rem;
+  height: auto;
+  padding-right: 1rem;
 }
 
 .c-section-kontakty-contact_mail{
-  padding: 1rem 2rem 0 2rem;
+  padding: 0 2rem 1rem 2rem;
+  color: $color-contacts-text !important;
 }
 
 .c-section-kontakty-contact_tel{
-  padding:  0 2rem 1rem 2rem;
+  padding: 1rem 2rem 0 2rem;
+  color: $color-contacts-text !important;
+  line-height: 2.5;
 }

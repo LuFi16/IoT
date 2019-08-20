@@ -1,17 +1,18 @@
 
 .c-section-podporovano_logos{
   box-sizing: border-box;
-  max-width: $max-content-size + 3rem;   //tied with margin in c-section-podporovano_logo
+  //max-width: $max-content-size + 3rem;   //tied with margin in c-section-podporovano_logo
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
   justify-content: space-between;
+  width: 82rem;
 }
 
 .c-section-podporovano_logo{    //tied with max-width in c-section-podporovano_logos
-  max-height: 3rem;
-  max-width: 10rem;
-  margin: 1.5rem;
+  //max-height: 4rem;
+  max-width: 13rem;
+  margin: 0.8rem;
 }

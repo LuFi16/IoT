@@ -47,7 +47,7 @@
   background-color: $color-primary;
   width: 60%;
   border-radius: 20% 0 0 20% / 50% 0 0 50%;
-  padding: 5rem 5rem 5rem 6rem;
+  padding: 2rem 5rem 5rem 6rem;
 }
 
 .c-header-about_heading{
@@ -56,8 +56,10 @@
 }
 
 .c-header-about_text{
-  text-align: justify;
+  text-align: left;
   font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 0.7rem;
 }
 
 

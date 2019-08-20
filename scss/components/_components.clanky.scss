@@ -1,18 +1,29 @@
 
+.c-section-clanky_articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 83rem;
+  margin: 0 auto;
+}
+
 .c-section-clanky_article{
   display: flex;
   flex-direction: column;
   text-align: left;
   max-width: $max-content-size;
-  margin: 0 auto 2rem auto;
+  margin: 0 1.8rem;
 }
 
 .c-section-clanky-article_heading{
   background-color: $color-black;
   color: $color-white;
   margin: 0 auto 0 0;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 0.6rem;
   @include font-primary-semibold;
+  position: relative;
+  top: 1rem;
+  left: -0.4rem;
 }
 
 .c-section-clanky-article_text{
@@ -20,6 +31,7 @@
   display: flex;
   flex-direction: row;
   background-color: $color-light;
+  margin-bottom: 4rem;
 }
 
 .c-section-clanky-article_img{}
@@ -27,4 +39,10 @@
 .c-section-clanky-article-text_text{
   padding: 1rem;
   margin: 0;
+}
+
+.c-section-clanky-article-text_link{
+  color: $color-black;
+  text-decoration: underline;
+  font-weight: bold;
 }
