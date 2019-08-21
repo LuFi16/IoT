@@ -4,16 +4,8 @@
     <list default="true" id="6efaf7e1-eba7-4fe1-8504-c9b41513edee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.akce.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.akce.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.clanky.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.clanky.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.content.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.content.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.nabizime.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.nabizime.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.projekty.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.projekty.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.akce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.akce.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.clanky.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.clanky.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.nabizime.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.nabizime.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.projekty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.projekty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.navigation.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.navigation.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_components.navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.navigation.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +25,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
+                <state relative-caret-position="733">
                   <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
                   <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -51,8 +42,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/components/_components.content.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                <state relative-caret-position="661">
+                  <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -71,10 +62,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/scss/components/_components.projekty.scss">
+            <entry file="file://$PROJECT_DIR$/scss/components/_components.navigation.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+                <state relative-caret-position="457">
+                  <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -91,18 +82,18 @@
       <list>
         <option value="$PROJECT_DIR$/scss/_components/_components.general.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/scss/components/_components.general.scss" />
-        <option value="$PROJECT_DIR$/scss/components/_components.navigation.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.header.scss" />
-        <option value="$PROJECT_DIR$/scss/components/_components.buttons.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.podporovano.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/components/_components.kontakty.scss" />
-        <option value="$PROJECT_DIR$/scss/components/_components.content.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.clanky.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.akce.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.nabizime.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.projekty.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_components.content.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_components.buttons.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_components.general.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_components.navigation.scss" />
       </list>
     </option>
   </component>
@@ -177,12 +168,12 @@
       <workItem from="1566217822635" duration="1198000" />
       <workItem from="1566286621798" duration="10177000" />
       <workItem from="1566312476065" duration="601000" />
-      <workItem from="1566393344952" duration="24594000" />
+      <workItem from="1566393344952" duration="25379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59703000" />
+    <option name="totallyTimeSpent" value="60488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -230,34 +221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -286,19 +249,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.projekty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -309,10 +270,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.projekty.scss">
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        <state relative-caret-position="661">
+          <caret line="124" column="15" lean-forward="true" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
         </state>
       </provider>
     </entry>

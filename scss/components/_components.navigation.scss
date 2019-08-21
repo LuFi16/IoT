@@ -1,13 +1,15 @@
 
-.c-nav{
+.c-nav{   //DO: CHECK OVERFLOW
   background-color: $color-white;
   @include c-box-shadow-light;
-  border-radius: 10px;
+  padding: 0;
   @media (max-width: $mobile){  //mobile
-
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    padding: 0;
+    border-radius: 10px;
     margin: auto;
     width: 45rem;
     position: relative;
@@ -16,12 +18,13 @@
 }
 
 .c-nav_ul{
+  margin: 0;
+  padding: 0;
   @media (max-width: $mobile){  //mobile
     flex-direction: column;
+    text-align: center;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -31,11 +34,10 @@
 .c-nav_li{
   list-style-type: none;
   @media (max-width: $mobile){  //mobile
-
+    width: 100%;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 1.2rem 0;
-
   }
 }
 
@@ -43,14 +45,15 @@
   box-sizing: border-box;
   text-decoration: none;
   color: $color-black;
+  width: 100%;
   @media (max-width: $mobile){  //mobile
-
+    padding: 1rem;
+    margin: 0;
+    display: inline-block;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    width: 100%;
     padding: 1.2rem 2rem;
     font-size: 1.05rem;
-
   }
 }
 
