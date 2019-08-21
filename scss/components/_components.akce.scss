@@ -1,5 +1,5 @@
 
-.c-content-section_akce{
+.c-akce{
   background-color: $color-black;
   color: $color-white;
   @media (max-width: $mobile){  //mobile
@@ -14,28 +14,18 @@
   }
 }
 
-.c-section-akce_heading{
+.c-akce_heading{
   color: $color-white;
 }
 
-.c-section-akce_subheading{
-  @include font-primary;
-  text-transform: uppercase;
-  @media (max-width: $mobile){  //mobile
+$padding-akce: 1rem;
 
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    font-size: 1rem;
-
-  }
-}
-
-.c-section-akce_box{
+.c-akce_box{
   background-color: $color-akce-bcg;
   border-radius: 0.3rem;
   border: 1px solid $color-akce-line;
   @media (max-width: $mobile){  //mobile
-
+    padding: $padding-akce;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     max-width: 48rem;
@@ -45,15 +35,51 @@
   }
 }
 
-.c-section-akce_text{
+.c-akce-box_subheading{
+  @include font-primary;
+  text-transform: uppercase;
   @media (max-width: $mobile){  //mobile
+    margin: 0 0 1rem 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    font-size: 1rem;
+  }
+}
 
+.c-akce-box_text{
+  @media (max-width: $mobile){  //mobile
+    margin: 0 0 2rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin-top: 0.10rem;
     margin-bottom: 1.7rem;
     font-size: 0.9rem;
     line-height: 1.8;
+  }
+}
 
+.c-akce-box_gallery{
+  display: flex;
+  @media (max-width: $mobile){  //mobile
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+    img{
+      max-width: calc(50% - (1rem/2));  //50% - ( $padding-akce / number of images in row )
+      height: auto;
+      margin: 0 0 $padding-akce 0;
+    }
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: 45rem;
+    justify-content: space-between;
+    margin: auto;
+    img{
+      width: 13rem;
+      height: auto;
+    }
+    flex-direction: row;
   }
 }
