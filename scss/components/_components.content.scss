@@ -45,13 +45,12 @@
   padding: 0 2rem;
   display: inline-block;
   position: relative;
+  font-size: 1.4rem;
+  margin: 0;
   @media (max-width: $mobile){  //mobile
     top: -2.7rem;
-    margin: 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    margin: 0;
-    font-size: 1.4rem;
     top: -2rem;
   }
 }
@@ -71,26 +70,27 @@
   display: inline-block;
   position: relative;
   top: -2.7rem;
+  font-size: 1.4rem;
   @media (max-width: $mobile){  //mobile
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin: 0;
-    font-size: 1.4rem;
   }
 }
 
 .c-content_heading-first{   //RENAME
+  font-size: 1.4rem;
   @media (max-width: $mobile){  //mobile
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 0 3rem 0.5rem 3rem;
     margin: 0.5rem 0 0 0;
     display: inline-block;
-    font-size: 1.4rem;
   }
 }
 
 .c-content-heading_another{   //RENAME and divide to black and white option
+  font-size: 1.4rem;
   @media (max-width: $mobile){  //mobile
     margin-bottom: 2rem;
   }
@@ -98,7 +98,6 @@
     padding: 0.1rem 2rem 2rem 2rem;
     margin: 0;
     display: inline-block;
-    font-size: 1.4rem;
   }
 }
 

@@ -12,10 +12,11 @@
 .c-nabizime_boxes{
   box-sizing: border-box;
   width: 100%;
+  display: flex;
   @media (max-width: $mobile){  //mobile
+    flex-direction: column;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;

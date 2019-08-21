@@ -9,6 +9,7 @@
   @media (max-width: $mobile){  //mobile
     padding: 0.3rem 1.8rem;
     margin: 1rem 0 3rem 0;
+    line-height: initial; //MAKE LINE-HEIGHT SAME FOR EVERY BUTTON
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 0.3rem 1.8rem 0.1rem 1.8rem;

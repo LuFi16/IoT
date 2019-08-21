@@ -3,14 +3,12 @@
   background-color: $color-black;
   color: $color-white;
   @media (max-width: $mobile){  //mobile
-
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     button{
       margin-top: 1.9rem;
       margin-bottom: 0;
     }
-
   }
 }
 
@@ -36,35 +34,35 @@ $padding-akce: 1rem;
 }
 
 .c-akce-box_subheading{
+  font-size: 1rem;
   @include font-primary;
   text-transform: uppercase;
   @media (max-width: $mobile){  //mobile
     margin: 0 0 1rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    font-size: 1rem;
   }
 }
 
 .c-akce-box_text{
+  font-size: 0.9rem;
+  line-height: 1.8;
   @media (max-width: $mobile){  //mobile
     margin: 0 0 2rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin-top: 0.10rem;
     margin-bottom: 1.7rem;
-    font-size: 0.9rem;
-    line-height: 1.8;
   }
 }
 
 .c-akce-box_gallery{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   @media (max-width: $mobile){  //mobile
     width: 100%;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0 0 1rem 0;
     img{
       max-width: calc(50% - (1rem/2));  //50% - ( $padding-akce / number of images in row )
@@ -74,12 +72,10 @@ $padding-akce: 1rem;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     width: 45rem;
-    justify-content: space-between;
     margin: auto;
     img{
       width: 13rem;
       height: auto;
     }
-    flex-direction: row;
   }
 }

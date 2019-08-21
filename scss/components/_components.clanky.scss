@@ -31,6 +31,7 @@
   background-color: $color-black;
   color: $color-white;
   @include font-primary-semibold;
+  font-size: 0.75rem;
   @media (max-width: $mobile){  //mobile
     padding: 0;
     margin: 0;
@@ -41,7 +42,6 @@
     position: relative;
     top: 1rem;
     left: -0.4rem;
-    font-size: 0.75rem;
   }
 }
 
@@ -84,6 +84,8 @@
 }
 
 .c-clanky-article-content_text{
+  line-height: 1.39;
+  font-size: 0.8rem;
   @media (max-width: $mobile){  //mobile
     padding: 1rem;
     margin: 0;
@@ -93,9 +95,6 @@
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 1.1rem 1rem 0 1rem;
     margin: 0;
-    line-height: 1.39;
-    font-size: 0.8rem;
-
   }
 }
 
@@ -104,9 +103,7 @@
   text-decoration: underline;
   font-weight: bold;
   @media (max-width: $mobile){  //mobile
-
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-
   }
 }
