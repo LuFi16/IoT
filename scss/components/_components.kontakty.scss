@@ -1,87 +1,85 @@
 
-.c-section_kontakty{
+.c-kontakty{
   background-color: $color-primary;
   color: $color-white;
 }
 
-.c-section-kontakty_heading{
+.c-kontakty_heading{
   color: $color-white;
   @media (max-width: $mobile){  //mobile
-
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin: 0.1rem 0 0.5rem 0;
-
   }
 }
 
-.c-section-kontakty_contacts{
+.c-kontakty_contacts{
+  width: 100%;
+  display: flex;
   @media (max-width: $mobile){  //mobile
     flex-direction: column;
+    align-items: center;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    width: 100%;
-    display: flex;
     justify-content: center;
     flex-direction: row;
   }
 }
 
-.c-section-kontakty_contact{
+.c-kontakty_contact{
   background-color: $color-green-dark;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  a{
+    color: $color-white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
   @media (max-width: $mobile){  //mobile
-
+    margin: 0 0 2rem 0;
+    width: 12rem;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9rem;
-    a{
-      color: $color-white;
-      text-decoration: none;
-    }
-    a:hover{
-      text-decoration: underline;
-    }
     margin: 1rem 2.4rem 1rem 2.4rem;
-
   }
 }
 
-.c-section-kontakty-contact_name{
+.c-kontakty-contact_name{
   @include font-primary-semibold;
   border-bottom: 1px solid $color-primary;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
   @media (max-width: $mobile){  //mobile
-
+    justify-content: center;
+    padding: 0.7rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    margin: 0;
     padding: 0.9rem 1.8rem 0.7rem 1.8rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 0.75rem;
-
   }
 }
 
-.c-section-kontakty-contact-name_logo{
+.c-kontakty-contact-name_logo{
+  width: 1.7rem;
+  height: auto;
   @media (max-width: $mobile){  //mobile
-
+    padding: 0 0.5rem 0 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    width: 1.7rem;
-    height: auto;
-    padding: 0 1rem 0 0;
     margin: 0;
-
+    padding: 0 1rem 0 0;
   }
 }
 
-.c-section-kontakty-contact_tel{
+.c-kontakty-contact_tel{
   color: $color-contacts-text !important;
   @media (max-width: $mobile){  //mobile
-
+    padding: 1rem 0 0.2rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 1.05rem 1.8rem 0.2rem 1.8rem;
@@ -91,32 +89,29 @@
   }
 }
 
-.c-section-kontakty-contact_mail{
+.c-kontakty-contact_mail{
   color: $color-contacts-text !important;
   @media (max-width: $mobile){  //mobile
-
+    padding: 0 0 1rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 0 1.8rem 0.3rem 1.8rem;
-    margin: 0 0 0 0;
-
+    margin: 0;
   }
 }
 
-.c-section-kontakty_contactlogo{
+.c-kontakty_contactlogo{
   @media (max-width: $mobile){  //mobile
-
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     p{
       padding: 0.65rem 1.8rem 0.4rem 1.8rem;
     }
-    .c-section-kontakty-contact_tel{
+    .c-kontakty-contact_tel{
       padding: 1.05rem 1.8rem 0.25rem 1.8rem;
     }
-    .c-section-kontakty-contact_mail{
+    .c-kontakty-contact_mail{
       padding: 0 1rem 1rem 1rem;
     }
-
   }
 }
