@@ -6,6 +6,7 @@
 
 .c-section-kontakty_heading{
   color: $color-white;
+  margin: 0.1rem 0 0.5rem 0;
 }
 
 .c-section-kontakty_contacts{
@@ -19,6 +20,7 @@
   background-color: $color-green-dark;
   display: flex;
   flex-direction: column;
+  font-size: 0.9rem;
   a{
     color: $color-white;
     text-decoration: none;
@@ -26,32 +28,48 @@
   a:hover{
     text-decoration: underline;
   }
-  margin: 1rem;
+  margin: 1rem 2.4rem 1rem 2.4rem;
 }
 
 .c-section-kontakty-contact_name{
   @include font-primary-semibold;
   margin: 0;
-  padding: 0.8rem 2rem 1rem 2rem;
+  padding: 0.9rem 1.8rem 0.7rem 1.8rem;
   border-bottom: 1px solid $color-primary;
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.75rem;
 }
 
 .c-section-kontakty-contact-name_logo{
-  width: 2rem;
+  width: 1.7rem;
   height: auto;
-  padding-right: 1rem;
-}
-
-.c-section-kontakty-contact_mail{
-  padding: 0 2rem 1rem 2rem;
-  color: $color-contacts-text !important;
+  padding: 0 1rem 0 0;
+  margin: 0;
 }
 
 .c-section-kontakty-contact_tel{
-  padding: 1rem 2rem 0 2rem;
+  padding: 1.05rem 1.8rem 0.2rem 1.8rem;
   color: $color-contacts-text !important;
-  line-height: 2.5;
+  //line-height: 2.5;
+  margin: 0;
+}
+
+.c-section-kontakty-contact_mail{
+  padding: 0 1.8rem 0.3rem 1.8rem;
+  color: $color-contacts-text !important;
+  margin: 0 0 0 0;
+}
+
+.c-section-kontakty_contactlogo{
+  p{
+    padding: 0.65rem 1.8rem 0.4rem 1.8rem;
+  }
+  .c-section-kontakty-contact_tel{
+    padding: 1.05rem 1.8rem 0.25rem 1.8rem;
+  }
+  .c-section-kontakty-contact_mail{
+    padding: 0 1rem 1rem 1rem;
+  }
 }

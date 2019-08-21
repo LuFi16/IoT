@@ -3,7 +3,7 @@
   padding: 0;
   margin: auto;
   background-color: $color-white;
-  @include c-box-shadow;
+  @include c-box-shadow-light;
   border-radius: 10px;
   width: 45rem;
   position: relative;
@@ -20,7 +20,7 @@
 
 .c-nav_li{
   list-style-type: none;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
 }
 
 .c-nav-li_a{
@@ -28,7 +28,8 @@
   text-decoration: none;
   color: $color-black;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2rem;
+  font-size: 1.05rem;
 }
 
 .c-nav-li_a:hover{

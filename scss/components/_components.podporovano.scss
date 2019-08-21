@@ -6,13 +6,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin: auto;
-  justify-content: space-between;
+  margin: 0 auto -1rem auto;
+  justify-content: center;
   width: 82rem;
 }
 
 .c-section-podporovano_logo{    //tied with max-width in c-section-podporovano_logos
-  //max-height: 4rem;
-  max-width: 13rem;
-  margin: 0.8rem;
+  max-height: 2rem;
+  max-width: 11rem;
+  margin: 1rem;
 }

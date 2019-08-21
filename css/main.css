@@ -13,8 +13,8 @@ body {
   border: 2px solid #038000;
   color: #038000;
   font-weight: bold;
-  font-size: 1rem;
-  padding: 0.3rem 2rem 0.1rem 2rem;
+  font-size: 1.1rem;
+  padding: 0.3rem 1.8rem 0.1rem 1.8rem;
   cursor: pointer; }
 
 .c-btn-primary:active {
@@ -32,20 +32,23 @@ body {
   border: none;
   background-color: #000000;
   color: #ffffff;
-  padding: 0.5rem 0.7rem;
+  padding: 0.4rem 0.6rem 0.3rem 0.6rem;
   cursor: pointer; }
 
 .c-header_btn:hover {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .c-btn-articles {
-  padding: 0.3rem 0.4rem 0.1rem 0.4rem; }
+  padding: 0.3rem 0.4rem 0.1rem 0.4rem;
+  margin-top: -0.2rem;
+  margin-bottom: 0.4rem; }
 
 .c-header {
   background-image: url("../img/header-img.png");
   background-color: #69878c;
   background-size: auto 100%;
   margin: 0;
+  padding-bottom: 0.5rem;
   color: #ffffff;
   display: flex;
   flex-direction: row; }
@@ -53,56 +56,66 @@ body {
 /* --- LIFE SCIENCES --- */
 .c-header_main {
   box-sizing: border-box;
-  width: 35%;
-  padding: 5rem 5rem 5rem 7rem; }
+  width: auto;
+  padding: 6.6rem 0 5rem 10.3rem; }
 
 .c-header-main_heading {
-  margin: 0;
+  margin: 0 0 -0.5rem 0;
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
 .c-header-main_subheading {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
-  margin: 0 0 1rem 0; }
+  font-size: 1.8rem;
+  margin: 0 0 1.2rem 0; }
 
 .c-header-main_logos {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center;
+  margin-top: -0.1rem; }
 
 .c-header-main_logo {
-  height: 2.7rem;
-  width: auto;
   margin: 4rem 2rem 0 0; }
+
+.c-header-main_logo-KIT {
+  height: 3rem;
+  width: auto; }
+
+.c-header-main_logo-CZU {
+  height: 3.5rem;
+  width: auto; }
 
 /* --- O PROJEKTU --- */
 .c-header_about {
   box-sizing: border-box;
   background-color: #038000;
-  border-radius: 20% 0 0 11% / 100% 0 0 90%;
+  border-radius: 10% 90% 0 100% / 100% 0 100% 0;
   /*background-image: url("../img/header-background.svg");
   background-repeat: no-repeat;
   background-position: left top;*/
-  width: 65%;
-  padding: 3.5rem 5rem 5rem 5rem; }
+  width: 53.5rem;
+  position: absolute;
+  right: 0;
+  padding: 4.55rem 5rem 2.1rem 5rem; }
 
 .c-header-about_heading {
   margin: 0;
-  font-size: 1.2rem; }
+  font-size: 1.3rem; }
 
 .c-header-about_text {
   text-align: left;
-  font-size: 0.8rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-top: 0.7rem; }
 
 .c-nav {
   padding: 0;
   margin: auto;
   background-color: #ffffff;
-  box-shadow: 0 0 15px 0 #919191;
+  box-shadow: 0 5px 15px 0 #dddddd;
   border-radius: 10px;
   width: 45rem;
   position: relative;
@@ -117,14 +130,15 @@ body {
 
 .c-nav_li {
   list-style-type: none;
-  padding: 1rem 0; }
+  padding: 1.2rem 0; }
 
 .c-nav-li_a {
   box-sizing: border-box;
   text-decoration: none;
   color: #000000;
   width: 100%;
-  padding: 1rem 2rem; }
+  padding: 1.2rem 2rem;
+  font-size: 1.05rem; }
 
 .c-nav-li_a:hover {
   background-color: rgba(3, 128, 0, 0.2); }
@@ -148,30 +162,30 @@ body {
   border: 1px solid #ececec;
   background-color: #ffffff;
   border-radius: 50px;
-  padding: 0.1rem 2rem;
+  padding: 0 2rem;
   margin: 0;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   position: relative;
-  top: -3rem; }
+  top: -2.7rem; }
 
 .c-content_heading-first {
   padding: 0 3rem 0.5rem 3rem;
-  margin: 0;
+  margin: 0.5rem 0 0 0;
   display: inline-block;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 .c-content-heading_another {
   padding: 0.1rem 2rem 2rem 2rem;
   margin: 0;
   display: inline-block;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
 
 .c-content-heading-another_clanky {
   padding: 1.5rem 0 3rem 0; }
 
 .c-content-heading-another_podporovano {
-  padding-bottom: 3rem; }
+  margin: -0.3rem 0 0.4rem 0; }
 
 .c-content_subheading {
   margin: 0;
@@ -180,16 +194,19 @@ body {
 .c-content_gallery {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 45rem;
   justify-content: space-between;
   margin: auto; }
+  .c-content_gallery img {
+    width: 13rem;
+    height: auto; }
 
 .c-content_size {
-  max-width: 55rem;
+  max-width: 65rem;
   margin: auto; }
 
 .c-section-projekty_boxes {
-  max-width: 57rem;
+  max-width: 67rem;
   /*display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -198,14 +215,16 @@ body {
   margin: 0 auto;
   padding-top: 0.5rem;
   column-count: 3;
-  column-gap: 2.5rem; }
+  column-gap: 2.5rem;
+  text-align: center; }
 
 .c-section-projekty_box {
   box-shadow: 0 0 15px 0 #919191;
   width: 100%;
   display: inline-block;
   margin: 1rem 0 1.5rem 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
 
 .c-section-projekty_heading {
   box-sizing: border-box;
@@ -214,7 +233,7 @@ body {
   text-transform: uppercase;
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #ffffff;
   background-image: url("../img/articles/img-article3.png");
   background-size: cover;
@@ -222,10 +241,12 @@ body {
   margin: 0;
   padding: 1rem;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 .c-section-projekty_text {
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  line-height: 1.5; }
 
 .c-section_nabizime button {
   margin-top: 2rem; }
@@ -241,16 +262,17 @@ body {
 .c-section-nabizime_box {
   box-shadow: 0 0 15px 0 #919191;
   background-color: #ffffff;
-  max-width: 30rem;
-  margin: 2rem; }
+  max-width: 27rem;
+  margin: 2rem 2rem 2.5rem 2rem; }
 
 .c-section-nabizime-box_heading {
   box-sizing: border-box;
   width: 100%;
+  height: 12.5rem;
   display: inline-block;
   background-size: cover;
   background-position: center;
-  padding: 4rem 4rem; }
+  padding: 4rem; }
 
 .c-section-nabizime-box_heading1 {
   background-image: url("../img/articles/img-wire.png"); }
@@ -265,17 +287,19 @@ body {
   font-weight: 400; }
 
 .c-section-nabizime-box_img {
-  margin-bottom: 1rem; }
+  margin-bottom: 0.5rem;
+  height: 3rem; }
 
 .c-section-nabizime-box_text {
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
   margin: 0; }
 
 .c-content-section_akce {
   background-color: #000000;
   color: #ffffff; }
   .c-content-section_akce button {
-    margin-top: 2rem; }
+    margin-top: 1.9rem;
+    margin-bottom: 0; }
 
 .c-section-akce_heading {
   color: #ffffff; }
@@ -283,50 +307,65 @@ body {
 .c-section-akce_subheading {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1rem; }
 
 .c-section-akce_box {
   background-color: #060606;
   border-radius: 0.3rem;
   border: 1px solid #363636;
-  margin-top: 2.5rem;
-  padding: 1rem 2rem 2rem 2rem; }
+  padding: 1rem 1.3rem 2rem 1.3rem;
+  max-width: 48rem;
+  margin: 0.8rem auto 0 auto; }
+
+.c-section-akce_text {
+  margin-top: 0.10rem;
+  margin-bottom: 1.7rem;
+  font-size: 0.9rem;
+  line-height: 1.8; }
 
 .c-section-clanky_articles {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 83rem;
-  margin: 0 auto; }
+  margin: 1rem auto 0 auto; }
 
 .c-section-clanky_article {
   display: flex;
   flex-direction: column;
   text-align: left;
-  max-width: 55rem;
-  margin: 0 1.8rem; }
+  max-width: 65rem;
+  margin: 0 1.4rem; }
 
 .c-section-clanky-article_heading {
   background-color: #000000;
   color: #ffffff;
   margin: 0 auto 0 0;
-  padding: 0.2rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
   position: relative;
   top: 1rem;
-  left: -0.4rem; }
+  left: -0.4rem;
+  font-size: 0.75rem; }
 
 .c-section-clanky-article_text {
   border: 1px solid #ececec;
   display: flex;
   flex-direction: row;
   background-color: #F9F9F9;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  width: 29.5rem; }
+
+.c-section-clanky-article_img {
+  height: 8.5rem; }
 
 .c-section-clanky-article-text_text {
-  padding: 1rem;
-  margin: 0; }
+  padding: 1.1rem 1rem 0 1rem;
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.39; }
 
 .c-section-clanky-article-text_link {
   color: #000000;
@@ -339,20 +378,22 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin: auto;
-  justify-content: space-between;
+  margin: 0 auto -1rem auto;
+  justify-content: center;
   width: 82rem; }
 
 .c-section-podporovano_logo {
-  max-width: 13rem;
-  margin: 0.8rem; }
+  max-height: 2rem;
+  max-width: 11rem;
+  margin: 1rem; }
 
 .c-section_kontakty {
   background-color: #038000;
   color: #ffffff; }
 
 .c-section-kontakty_heading {
-  color: #ffffff; }
+  color: #ffffff;
+  margin: 0.1rem 0 0.5rem 0; }
 
 .c-section-kontakty_contacts {
   width: 100%;
@@ -364,7 +405,8 @@ body {
   background-color: #026400;
   display: flex;
   flex-direction: column;
-  margin: 1rem; }
+  font-size: 0.9rem;
+  margin: 1rem 2.4rem 1rem 2.4rem; }
   .c-section-kontakty_contact a {
     color: #ffffff;
     text-decoration: none; }
@@ -375,24 +417,34 @@ body {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
   margin: 0;
-  padding: 0.8rem 2rem 1rem 2rem;
+  padding: 0.9rem 1.8rem 0.7rem 1.8rem;
   border-bottom: 1px solid #038000;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  font-size: 0.75rem; }
 
 .c-section-kontakty-contact-name_logo {
-  width: 2rem;
+  width: 1.7rem;
   height: auto;
-  padding-right: 1rem; }
-
-.c-section-kontakty-contact_mail {
-  padding: 0 2rem 1rem 2rem;
-  color: #d9e8d9 !important; }
+  padding: 0 1rem 0 0;
+  margin: 0; }
 
 .c-section-kontakty-contact_tel {
-  padding: 1rem 2rem 0 2rem;
+  padding: 1.05rem 1.8rem 0.2rem 1.8rem;
   color: #d9e8d9 !important;
-  line-height: 2.5; }
+  margin: 0; }
+
+.c-section-kontakty-contact_mail {
+  padding: 0 1.8rem 0.3rem 1.8rem;
+  color: #d9e8d9 !important;
+  margin: 0 0 0 0; }
+
+.c-section-kontakty_contactlogo p {
+  padding: 0.65rem 1.8rem 0.4rem 1.8rem; }
+.c-section-kontakty_contactlogo .c-section-kontakty-contact_tel {
+  padding: 1.05rem 1.8rem 0.25rem 1.8rem; }
+.c-section-kontakty_contactlogo .c-section-kontakty-contact_mail {
+  padding: 0 1rem 1rem 1rem; }
 
 /*# sourceMappingURL=main.css.map */

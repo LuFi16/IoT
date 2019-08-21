@@ -8,10 +8,14 @@ $color-green-dark: #026400;
 $color-yellow: #fdab29;
 $color-img-header: #69878c;
 
-$color-shadow: rgba(145,145,145,1);
+$color-shadow: #919191;
+$color-shadow-lighter: #dddddd;
+
 $color-border-line: #ececec;
+
 $color-akce-bcg: #060606;
 $color-akce-line: #363636;
+
 $color-contacts-text: #d9e8d9;
 
 
@@ -51,7 +55,7 @@ $wide:    1400px;
 
 
 /* OTHER */
-$max-content-size: 55rem;
+$max-content-size: 65rem;
 
 
 /* CODE */
@@ -63,4 +67,8 @@ body {
 
 @mixin c-box-shadow{
   box-shadow: 0 0 15px 0 $color-shadow;
+}
+
+@mixin c-box-shadow-light{
+  box-shadow: 0 5px 15px 0 $color-shadow-lighter;
 }
