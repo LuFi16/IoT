@@ -1,47 +1,65 @@
 
-.c-section-projekty_boxes{
-  max-width: $max-content-size + 2rem;
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;*/
-  margin: 0 auto;
-  padding-top: 0.5rem;
-  column-count: 3;
-  column-gap: 2.5rem;
-  text-align: center;
+.c-projekty_boxes{
+  @media (max-width: $mobile){  //mobile
+    box-sizing: border-box;
+    width: 100%;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    max-width: $max-content-size + 2rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    column-count: 3;
+    column-gap: 2.5rem;
+    text-align: center;
+  }
 }
 
-.c-section-projekty_box{
+.c-projekty_box{
   @include c-box-shadow;
-  //width: 17rem;
-  width: 100%;
-  display: inline-block;
-  margin: 1rem 0 1.5rem 0;
-  padding: 0;
-  text-align: center;
+  @media (max-width: $mobile){  //mobile
+    width: 100%;
+    margin: 2rem 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: 100%;
+    display: inline-block;
+    margin: 1rem 0 1.5rem 0;
+    padding: 0;
+    text-align: center;
+  }
 }
 
-.c-section-projekty_heading{
+.c-projekty_heading{
   box-sizing: border-box;
-  width: 100%;
-  height: 8rem;
   text-transform: uppercase;
   @include font-primary-semibold;
-  font-size: 1.1rem;
   color: $color-white;
   background-image: url("../img/articles/img-article3.png");
   background-size: cover;
   background-position: center;
-  margin: 0;
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 8rem;
+  @media (max-width: $mobile){  //mobile
+    padding: 1rem;
+    margin: 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
 }
 
-.c-section-projekty_text{
-  padding: 1rem 2rem;
-  line-height: 1.5;
+.c-projekty_text{
+  @media (max-width: $mobile){  //mobile
+    padding: 1rem;
+    margin: 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding: 1rem 2rem;
+    line-height: 1.5;
+  }
 }

@@ -3,50 +3,97 @@
   background-image: url("../img/header-img.png");
   background-color: $color-img-header;
   background-size: auto 100%;
-  margin: 0;
-  padding-bottom: 0.5rem;
   color: $color-white;
-  display: flex;
-  flex-direction: row;
+  @media (max-width: $mobile){  //mobile
+    flex-direction: column;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }
 }
 
 
 /* --- LIFE SCIENCES --- */
 .c-header_main{
   box-sizing: border-box;
-  width: auto;
-  padding: 6.6rem 0 5rem 10.3rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: auto;
+    padding: 6.6rem 0 5rem 10.3rem;
+
+  }
 }
 
 .c-header-main_heading{
-  margin: 0 0 -0.5rem 0;
   @include font-primary-semibold;
-  font-size: 3rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0 0 -0.5rem 0;
+    font-size: 3rem;
+
+  }
 }
 
 .c-header-main_subheading{
   @include font-primary-semibold;
-  font-size: 1.8rem;
-  margin: 0 0 1.2rem 0;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    font-size: 1.8rem;
+    margin: 0 0 1.2rem 0;
+
+  }
 }
 
 .c-header-main_logos{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: -0.1rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -0.1rem;
+
+  }
 }
 
 .c-header-main_logo{
-  margin: 4rem 2rem 0 0;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 4rem 2rem 0 0;
+
+  }
 }
 .c-header-main_logo-KIT{
-  height: 3rem;
-  width: auto;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    height: 3rem;
+    width: auto;
+
+  }
 }
 .c-header-main_logo-CZU{
-  height: 3.5rem;
-  width: auto;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    height: 3.5rem;
+    width: auto;
+
+  }
 }
 
 
@@ -60,22 +107,39 @@
   /*background-image: url("../img/header-background.svg");
   background-repeat: no-repeat;
   background-position: left top;*/
-  width: 53.5rem;
-  position: absolute;
-  right: 0;
-  padding: 4.55rem 5rem 2.1rem 5rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding: 4.55rem 5rem 2.1rem 5rem;
+    width: 53.5rem;
+    position: absolute;
+    right: 0;
+  }
 }
 
 .c-header-about_heading{
-  margin: 0;
-  font-size: 1.3rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0;
+    font-size: 1.3rem;
+
+  }
 }
 
 .c-header-about_text{
-  text-align: left;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-top: 0.7rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0.7rem;
+
+  }
 }
 
 

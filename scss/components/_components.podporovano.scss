@@ -1,18 +1,29 @@
 
 .c-section-podporovano_logos{
   box-sizing: border-box;
-  //max-width: $max-content-size + 3rem;   //tied with margin in c-section-podporovano_logo
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto -1rem auto;
-  justify-content: center;
-  width: 82rem;
+  @media (max-width: $mobile){  //mobile
+    flex-direction: column;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    //max-width: $max-content-size + 3rem;   //tied with margin in c-section-podporovano_logo
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto -1rem auto;
+    justify-content: center;
+    flex-direction: row;
+    width: 82rem;
+  }
 }
 
 .c-section-podporovano_logo{    //tied with max-width in c-section-podporovano_logos
-  max-height: 2rem;
-  max-width: 11rem;
-  margin: 1rem;
+
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    max-height: 2rem;
+    max-width: 11rem;
+    margin: 1rem;
+  }
 }

@@ -2,21 +2,63 @@
 
 .c-content_section{
   border-bottom: 1px solid $color-border-line;
-  width: 100%;
   text-align: center;
-  padding: 1.5rem 0 4.5rem 0;
+  @media (max-width: $mobile){  //mobile
+    padding: 2rem 0.7rem;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: 100%;
+    padding: 1.5rem 0 4.5rem 0;
+  }
 }
 
 #s-projekty{
-  padding-top: 0.7rem;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding-top: 0.7rem;
+  }
 }
 
 #s-akce{
-  padding-bottom: 3rem;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding-bottom: 3rem;
+  }
 }
 
 #s-clanky{
-  padding-bottom: 3rem;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding-bottom: 3rem;
+  }
+}
+
+.c-heading_round-border{
+  border: 1px solid $color-border-line;
+  background-color: $color-white;
+  border-radius: 50px;
+  padding: 0 2rem;
+  display: inline-block;
+  position: relative;
+  @media (max-width: $mobile){  //mobile
+    top: -2.7rem;
+    margin: 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0;
+    font-size: 1.4rem;
+    top: -2rem;
+  }
+}
+.c-content-section_round-heading{
+  @media (max-width: $mobile){  //mobile
+    padding: 1.5rem 0.7rem;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  }
 }
 
 .c-content_heading{
@@ -24,53 +66,86 @@
   background-color: $color-white;
   border-radius: 50px;
   padding: 0 2rem;
-  margin: 0;
   display: inline-block;
-  font-size: 1.4rem;
   position: relative;
   top: -2.7rem;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0;
+    font-size: 1.4rem;
+  }
 }
 
 .c-content_heading-first{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 0 3rem 0.5rem 3rem;
     margin: 0.5rem 0 0 0;
     display: inline-block;
     font-size: 1.4rem;
-}
-
-.c-content-heading_another{
-  padding: 0.1rem 2rem 2rem 2rem;
-  margin: 0;
-  display: inline-block;
-  font-size: 1.4rem;
-}
-
-.c-content-heading-another_clanky{
-  padding: 1.5rem 0 3rem 0;
-}
-
-.c-content-heading-another_podporovano{
-  margin: -0.3rem 0 0.4rem 0;
-}
-
-.c-content_subheading{
-  margin: 0;
-  padding: 0;
-}
-
-.c-content_gallery{
-  display: flex;
-  flex-direction: row;
-  width: 45rem;
-  justify-content: space-between;
-  margin: auto;
-  img{
-    width: 13rem;
-    height: auto;
   }
 }
 
-.c-content_size{
-  max-width: $max-content-size;
-  margin: auto;
+.c-content-heading_another{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding: 0.1rem 2rem 2rem 2rem;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+}
+
+.c-content-heading-another_clanky{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding: 1.5rem 0 3rem 0;
+  }
+}
+
+.c-content-heading-another_podporovano{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: -0.3rem 0 0.4rem 0;
+  }
+}
+
+.c-content_subheading{  //CAN BE DELETED ?
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.c-content_gallery{
+  @media (max-width: $mobile){  //mobile
+    flex-direction: column;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    img{
+      width: 13rem;
+      height: auto;
+    }
+    flex-direction: row;
+  }
+}
+
+.c-content_size{    //CAN BE DELETED ?
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    max-width: $max-content-size;
+    margin: auto;
+  }
 }

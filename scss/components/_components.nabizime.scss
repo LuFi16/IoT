@@ -1,58 +1,95 @@
 
-.c-section_nabizime{
-  button{
-    margin-top: 2rem;
+.c-nabizime{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    button{
+      margin-top: 2rem;
+    }
   }
 }
 
-.c-section-nabizime_boxes{
+.c-nabizime_boxes{
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  align-items: flex-start;
-  justify-content: center;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
-.c-section-nabizime_box{
+.c-nabizime_box{
   @include c-box-shadow;
   background-color: $color-white;
-  max-width: 27rem;
-  margin: 2rem 2rem 2.5rem 2rem;
+  @media (max-width: $mobile){  //mobile
+    margin: 0 0 2rem 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 2rem 2rem 2.5rem 2rem;
+    max-width: 27rem;
+  }
 }
 
-.c-section-nabizime-box_heading{
+.c-nabizime-box_heading{
   box-sizing: border-box;
-  width: 100%;
-  height: 12.5rem;
-  display: inline-block;
   background-size: cover;
   background-position: center;
-  padding: 4rem;
+  width: 100%;
+  height: 12.5rem;
+  @media (max-width: $mobile){  //mobile
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    display: inline-block;
+    padding: 4rem;
+  }
 }
 
-.c-section-nabizime-box_heading1{
+.c-nabizime-box_heading1{
   background-image: url("../img/articles/img-wire.png");
 }
 
-.c-section-nabizime-box_heading2{
+.c-nabizime-box_heading2{
   background-image: url("../img/articles/img-wire2.png");
 }
 
-.c-section-nabizime-box_heading-heading{
+.c-nabizime-box_img{
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin-bottom: 0.5rem;
+    height: 3rem;
+  }
+}
+
+.c-nabizime-box-heading_text{
   color: $color-white;
   text-transform: uppercase;
   @include font-primary;
+  @media (max-width: $mobile){  //mobile
+    margin: 1rem 0 0 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin: 0;
+    padding: 0;
+  }
 }
 
-
-.c-section-nabizime-box_img{
-  margin-bottom: 0.5rem;
-  height: 3rem;
-}
-
-.c-section-nabizime-box_text{
-  padding: 1.5rem 3rem;
+.c-nabizime-box_text{
   margin: 0;
+  @media (max-width: $mobile){  //mobile
+    padding: 1rem;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    padding: 1.5rem 3rem;
+  }
 }
 

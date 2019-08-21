@@ -2,9 +2,15 @@
 .c-content-section_akce{
   background-color: $color-black;
   color: $color-white;
-  button{
-    margin-top: 1.9rem;
-    margin-bottom: 0;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    button{
+      margin-top: 1.9rem;
+      margin-bottom: 0;
+    }
+
   }
 }
 
@@ -15,22 +21,39 @@
 .c-section-akce_subheading{
   @include font-primary;
   text-transform: uppercase;
-  font-size: 1rem;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    font-size: 1rem;
+
+  }
 }
 
 .c-section-akce_box{
   background-color: $color-akce-bcg;
   border-radius: 0.3rem;
   border: 1px solid $color-akce-line;
-  //margin-top: 0.8rem;
-  padding: 1rem 1.3rem 2rem 1.3rem;
-  max-width: 48rem;
-  margin: 0.8rem auto 0 auto;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    max-width: 48rem;
+    //margin-top: 0.8rem;
+    padding: 1rem 1.3rem 2rem 1.3rem;
+    margin: 0.8rem auto 0 auto;
+  }
 }
 
 .c-section-akce_text{
-  margin-top: 0.10rem;
-  margin-bottom: 1.7rem;
-  font-size: 0.9rem;
-  line-height: 1.8;
+  @media (max-width: $mobile){  //mobile
+
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin-top: 0.10rem;
+    margin-bottom: 1.7rem;
+    font-size: 0.9rem;
+    line-height: 1.8;
+
+  }
 }
