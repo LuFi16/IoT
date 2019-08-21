@@ -58,21 +58,33 @@ $padding-akce: 1rem;
 
 .c-akce-box_gallery{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   @media (max-width: $mobile){  //mobile
     width: 100%;
     flex-wrap: wrap;
     margin: 0 0 1rem 0;
+    flex-direction: row;
+    justify-content: space-between;
     img{
       max-width: calc(50% - (1rem/2));  //50% - ( $padding-akce / number of images in row )
       height: auto;
       margin: 0 0 $padding-akce 0;
     }
   }
+  @media (max-width: $tiny){  //mobile
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+  }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     width: 45rem;
     margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
     img{
       width: 13rem;
       height: auto;
