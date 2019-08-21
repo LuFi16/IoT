@@ -57,21 +57,28 @@ body {
 .c-header {
   background-image: url("../img/header-img.png");
   background-color: #69878c;
-  background-size: auto 100%;
-  color: #ffffff; }
+  color: #ffffff;
+  display: flex;
+  margin: 0; }
   @media (max-width: 650px) {
     .c-header {
-      flex-direction: column; } }
+      flex-direction: column;
+      background-size: 60rem;
+      background-position: center top;
+      background-repeat: no-repeat; } }
   @media (min-width: 651px) {
     .c-header {
-      display: flex;
       flex-direction: row;
-      margin: 0;
-      padding-bottom: 0.5rem; } }
+      padding-bottom: 0.5rem;
+      background-size: auto 100%; } }
 
 /* --- LIFE SCIENCES --- */
 .c-header_main {
   box-sizing: border-box; }
+  @media (max-width: 650px) {
+    .c-header_main {
+      text-align: center;
+      margin: 2rem 1rem; } }
   @media (min-width: 651px) {
     .c-header_main {
       width: auto;
@@ -80,6 +87,10 @@ body {
 .c-header-main_heading {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500; }
+  @media (max-width: 650px) {
+    .c-header-main_heading {
+      font-size: 3rem;
+      margin: 0; } }
   @media (min-width: 651px) {
     .c-header-main_heading {
       margin: 0 0 -0.5rem 0;
@@ -87,11 +98,14 @@ body {
 
 .c-header-main_subheading {
   font-family: "Titillium Web Semibold", sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  margin: 0 0 1.2rem 0; }
+  @media (max-width: 650px) {
+    .c-header-main_subheading {
+      font-size: 1.8rem; } }
   @media (min-width: 651px) {
     .c-header-main_subheading {
-      font-size: 1.8rem;
-      margin: 0 0 1.2rem 0; } }
+      font-size: 1.8rem; } }
 
 @media (min-width: 651px) {
   .c-header-main_logos {
@@ -100,46 +114,53 @@ body {
     align-items: center;
     margin-top: -0.1rem; } }
 
+@media (max-width: 650px) {
+  .c-header-main_logo {
+    margin: 1.2rem; } }
 @media (min-width: 651px) {
   .c-header-main_logo {
     margin: 4rem 2rem 0 0; } }
 
-@media (min-width: 651px) {
-  .c-header-main_logo-KIT {
-    height: 3rem;
-    width: auto; } }
+.c-header-main_logo-KIT {
+  height: 3rem;
+  width: auto; }
 
-@media (min-width: 651px) {
-  .c-header-main_logo-CZU {
-    height: 3.5rem;
-    width: auto; } }
+.c-header-main_logo-CZU {
+  height: 3.5rem;
+  width: auto; }
 
 /* --- O PROJEKTU --- */
 .c-header_about {
   box-sizing: border-box;
-  background-color: #038000;
-  border-radius: 10% 90% 0 100% / 100% 0 100% 0;
-  /*background-image: url("../img/header-background.svg");
-  background-repeat: no-repeat;
-  background-position: left top;*/ }
+  background-color: #038000; }
+  @media (max-width: 650px) {
+    .c-header_about {
+      padding: 2rem; } }
   @media (min-width: 651px) {
     .c-header_about {
       padding: 4.55rem 5rem 2.1rem 5rem;
       width: 53.5rem;
       position: absolute;
-      right: 0; } }
+      right: 0;
+      border-radius: 10% 90% 0 100% / 100% 0 100% 0;
+      /*background-image: url("../img/header-background.svg");
+      background-repeat: no-repeat;
+      background-position: left top;*/ } }
 
-@media (min-width: 651px) {
-  .c-header-about_heading {
-    margin: 0;
-    font-size: 1.3rem; } }
+.c-header-about_heading {
+  margin: 0;
+  font-size: 1.3rem; }
 
-@media (min-width: 651px) {
-  .c-header-about_text {
-    text-align: left;
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-top: 0.7rem; } }
+.c-header-about_text {
+  line-height: 1.6; }
+  @media (max-width: 650px) {
+    .c-header-about_text {
+      margin-bottom: 0; } }
+  @media (min-width: 651px) {
+    .c-header-about_text {
+      text-align: left;
+      font-size: 1rem;
+      margin-top: 0.7rem; } }
 
 .c-nav {
   background-color: #ffffff;
