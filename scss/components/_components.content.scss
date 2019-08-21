@@ -92,6 +92,7 @@
 
 .c-content-heading_another{   //RENAME and divide to black and white option
   @media (max-width: $mobile){  //mobile
+    margin-bottom: 2rem;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 0.1rem 2rem 2rem 2rem;

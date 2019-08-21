@@ -43,11 +43,12 @@
 }
 
 .c-btn-articles{  //green btn with smaller padding
-  padding: 0.3rem 0.4rem 0.1rem 0.4rem;
-  margin-top: -0.2rem;
-  margin-bottom: 0.4rem;
   @media (max-width: $mobile){  //mobile
+    padding: 0.3rem 0.4rem;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
+    margin-top: -0.2rem;
+    margin-bottom: 0.4rem;
+    padding: 0.3rem 0.4rem 0.1rem 0.4rem;
   }
 }

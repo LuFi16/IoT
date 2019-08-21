@@ -1,38 +1,39 @@
 
-.c-section-clanky_articles{
+.c-clanky_articles{
+  display: flex;
   @media (max-width: $mobile){  //mobile
     flex-direction: column;
+    width: 100%;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    display: flex;
+    width: 83rem;
+    flex-direction: row;
     justify-content: center;
     margin: 1rem auto 0 auto;
-    flex-direction: row;
-    width: 83rem;
   }
 }
 
-.c-section-clanky_article{
-  max-width: $max-content-size;
+.c-clanky_article{
+  display: flex;
+  flex-direction: column;
   @media (max-width: $mobile){  //mobile
-
+    margin: 0 0 2rem 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
-    display: flex;
-    flex-direction: column;
+    max-width: $max-content-size;
     text-align: left;
     margin: 0 1.4rem;
 
   }
 }
 
-.c-section-clanky-article_heading{
+.c-clanky-article_heading{
   background-color: $color-black;
   color: $color-white;
   @include font-primary-semibold;
-  font-size: 0.75rem;
   @media (max-width: $mobile){  //mobile
-
+    padding: 0;
+    margin: 0;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin: 0 auto 0 0;
@@ -40,49 +41,65 @@
     position: relative;
     top: 1rem;
     left: -0.4rem;
-
+    font-size: 0.75rem;
   }
 }
 
-.c-section-clanky-article_text{
+.c-clanky-article_content{
   border: 1px solid $color-border-line;
   background-color: $color-light;
   @media (max-width: $mobile){  //mobile
-
+    padding: 0;
+    margin: 0;
+    border: none;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     display: flex;
     flex-direction: row;
     width: 29.5rem;
     margin-bottom: 4rem;
-
+  }
+}
+.c-clanky-article_img-container{
+  @media (max-width: $mobile){  //mobile
+    height: 8rem;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
   }
 }
 
-.c-section-clanky-article_img{
+.c-clanky-article_img{
   @media (max-width: $mobile){  //mobile
-
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     height: 8.5rem;
-
   }
 }
 
-.c-section-clanky-article-text_text{
-  font-size: 0.8rem;
-  line-height: 1.39;
+.c-clanky-article-content_text{
   @media (max-width: $mobile){  //mobile
-
+    padding: 1rem;
+    margin: 0;
+    border: 1px solid $color-border-line;
+    border-top: none;
   }
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     padding: 1.1rem 1rem 0 1rem;
     margin: 0;
+    line-height: 1.39;
+    font-size: 0.8rem;
 
   }
 }
 
-.c-section-clanky-article-text_link{
+.c-clanky-article-text_link{
   color: $color-black;
   text-decoration: underline;
   font-weight: bold;
