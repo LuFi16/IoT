@@ -137,4 +137,11 @@ $margin-header-inside: 1.2rem;
   }
 }
 
+.c-header_link{
+  color: $color-white;
+}
+.c-header_link:hover{
+  color: transparentize($color-white, 0.5);
+}
+
 

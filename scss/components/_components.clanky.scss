@@ -11,6 +11,10 @@
     justify-content: center;
     margin: 1rem auto 0 auto;
   }
+  @media (min-width: $mobile+1px) and (max-width: 1330px){
+    flex-direction: column;
+    width: auto;
+  }
 }
 
 .c-clanky_article{
@@ -23,7 +27,6 @@
     max-width: $max-content-size;
     text-align: left;
     margin: 0 1.4rem;
-
   }
 }
 

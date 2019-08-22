@@ -36,6 +36,31 @@
   }
 }
 
+.c-link{
+  color: $color-black;
+  text-decoration: underline;
+  font-weight: bold;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  }
+}
+.c-link:hover{
+  color: transparentize($color-black, 0.5)
+}
+
+.c-soon{
+  color: $color-black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: default;
+  @media (max-width: $mobile){  //mobile
+  }
+  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  }
+}
+
+
 /* --- HEADINGS --- */
 
 .c-heading_round-border{
