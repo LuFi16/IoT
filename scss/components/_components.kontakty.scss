@@ -45,6 +45,13 @@
   @media (min-width: $mobile+1px){  //tablet + desktop + wide
     margin: 1rem 2.4rem 1rem 2.4rem;
   }
+  @media (max-width: 800px){  //tablet + desktop + wide
+    margin: 1rem 0.8rem;
+  }
+  @media (max-width: 260px){  //tablet + desktop + wide
+    width: 100%;
+    //margin: 0;
+  }
 }
 
 .c-kontakty-contact_position{

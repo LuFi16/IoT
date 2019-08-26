@@ -749,6 +749,12 @@ body {
   @media (min-width: 651px) {
     .c-kontakty_contact {
       margin: 1rem 2.4rem 1rem 2.4rem; } }
+  @media (max-width: 800px) {
+    .c-kontakty_contact {
+      margin: 1rem 0.8rem; } }
+  @media (max-width: 260px) {
+    .c-kontakty_contact {
+      width: 100%; } }
 
 .c-kontakty-contact_position {
   font-family: "Titillium Web Semibold", sans-serif;
