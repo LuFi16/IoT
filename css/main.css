@@ -676,7 +676,7 @@ body {
       justify-content: center;
       padding-left: 1rem;
       padding-right: 1rem; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1321px) {
     .c-podporovano_logos {
       flex-wrap: wrap;
       align-items: center;
@@ -684,6 +684,14 @@ body {
       justify-content: center;
       flex-direction: row;
       width: 82rem; } }
+  @media (min-width: 651px) and (max-width: 1320px) {
+    .c-podporovano_logos {
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 0 1rem -1rem 1rem;
+      justify-content: center;
+      flex-direction: row;
+      width: auto; } }
 
 @media (max-width: 650px) {
   .c-podporovano_logo {
