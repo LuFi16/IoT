@@ -1,45 +1,4 @@
 
-/*.test{ //c-header
-  box-sizing: border-box;
-  //background-color: lightblue;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-
-  background-image: url("../img/header-img.png");
-  background-color: $color-img-header;
-  color: $color-white;
-  background-size: cover;
-  background-position: center;
-  padding: 0;
-}
-
-.test2{  //c-header_main
-  box-sizing: border-box;
-  //background-color: #fdab29;
-  width: auto;
-}
-
-.test3{  //c-header_about
-  box-sizing: border-box;
-  //background-color: lightcoral;
-  width: 53.5rem;
-  padding: 5rem;
-
-
-  background-color: $color-primary;
-  !*position: absolute;
-  right: 0;*!
-  border-radius: 25% 0 0 25% / 100% 0 0 100% ;
-}*/
-
-
-
-
-
-
-
 .c-header{
   background-image: url("../img/header-img.png");
   background-color: $color-img-header;
