@@ -34,8 +34,6 @@ $padding-akce: 1rem;
   @media (max-width: $akce-tablet){
     margin: 0 0 1rem 0;
   }
-  @media (min-width: $akce-tablet+1px){
-  }
 }
 
 .c-akce-box_text{
@@ -84,10 +82,6 @@ $padding-akce: 1rem;
     img{
       width: 13rem;
       height: auto;
-    }
-  }
-  @media (min-width: 621px) and (max-width: $akce-tablet){
-    img{
     }
   }
 }

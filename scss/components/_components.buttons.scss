@@ -6,12 +6,12 @@
   font-weight: bold;
   cursor: pointer;
   font-size: 1.1rem;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0.3rem 1.8rem;
     margin: 1rem 0 3rem 0;
     line-height: initial; //MAKE LINE-HEIGHT SAME FOR EVERY BUTTON
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0.3rem 1.8rem 0.1rem 1.8rem;
   }
 }
@@ -34,20 +34,16 @@
   color: $color-white;
   padding: 0.4rem 0.6rem 0.3rem 0.6rem;
   cursor: pointer;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
-  }
 }
 .c-header_btn:hover{
   background-color: transparentize($color-black, 0.5);
 }
 
 .c-btn-articles{  //green btn with smaller padding
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0.3rem 0.4rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin-top: -0.2rem;
     margin-bottom: 0.4rem;
     padding: 0.3rem 0.4rem 0.1rem 0.4rem;

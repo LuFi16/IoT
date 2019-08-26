@@ -663,15 +663,23 @@ body {
   .c-clanky-article_img {
     height: 8.5rem; } }
 
+@media (max-width: 650px) {
+  .c-clanky-article-content-text_container {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ececec;
+    border-top: none;
+    padding-bottom: 1rem; } }
+
 .c-clanky-article-content_text {
   line-height: 1.39;
   font-size: 0.8rem; }
   @media (max-width: 650px) {
     .c-clanky-article-content_text {
-      padding: 1rem;
+      padding: 1rem 1rem 0 1rem;
       margin: 0;
-      border: 1px solid #ececec;
-      border-top: none; } }
+      box-sizing: border-box;
+      width: 100%; } }
   @media (min-width: 651px) {
     .c-clanky-article-content_text {
       padding: 1.1rem 1rem 0 1rem;

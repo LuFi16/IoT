@@ -5,13 +5,13 @@
   color: $color-white;
   display: flex;
   margin: 0;
-  @media (max-width: $header-small){  //mobile
+  @media (max-width: $header-small){
     flex-direction: column;
     background-size: 60rem;
     background-position: center top;
     background-repeat: no-repeat;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     flex-direction: row;
     //background-size: auto 100%;
     background-size: cover;
@@ -19,6 +19,7 @@
     //padding-bottom: 0.5rem;
     padding: 0;
   }
+
   @media (min-width: 960px) and (max-width: $header-small){
     background-size: 80rem;
   }
@@ -47,11 +48,11 @@
 /* --- LIFE SCIENCES --- */
 .c-header_main{
   box-sizing: border-box;
-  @media (max-width: $header-small){  //mobile
+  @media (max-width: $header-small){
     text-align: center;
     margin: 2rem 1rem;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     width: auto;
     padding: 6.6rem 0 5rem 10.3rem;
   }
@@ -60,10 +61,10 @@
 .c-header-main_heading{
   @include font-primary-semibold;
   @media (max-width: $header-small){  //mobile
-    font-size: 3rem;  //DO: RESPONSIVE FONT-SIZE
+    font-size: 3rem;
     margin: 0;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     margin: 0 0 -0.5rem 0;
     font-size: 3rem;
   }
@@ -74,19 +75,16 @@ $margin-header-inside: 1.2rem;
 .c-header-main_subheading{
   @include font-primary-semibold;
   margin: 0 0 $margin-header-inside 0;
-  @media (max-width: $header-small){  //mobile
-    font-size: 1.8rem;  //DO: RESPONSIVE FONT-SIZE
+  @media (max-width: $header-small){
+    font-size: 1.8rem;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     font-size: 1.8rem;
   }
 }
 
 .c-header-main_logos{
-  @media (max-width: $header-small){  //mobile
-    //margin: $margin-header-inside 0;
-  }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,10 +93,10 @@ $margin-header-inside: 1.2rem;
 }
 
 .c-header-main_logo{
-  @media (max-width: $header-small){  //mobile
+  @media (max-width: $header-small){
     margin: $margin-header-inside;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     margin: 4rem 2rem 0 0;
   }
 }
@@ -118,10 +116,10 @@ $margin-header-inside: 1.2rem;
 .c-header_about{
   box-sizing: border-box;
   background-color: $color-primary;
-  @media (max-width: $header-small){  //mobile + tablet
+  @media (max-width: $header-small){
     padding: 2rem;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     padding: 4.55rem 5rem 3.1rem 5rem;
     width: 53.5rem;
     position: absolute;
@@ -132,7 +130,7 @@ $margin-header-inside: 1.2rem;
     background-repeat: no-repeat;
     background-position: left top;*/
   }
-  @media (min-width: $header-big) and (max-width: $about-medium){  //mobile
+  @media (min-width: $header-big) and (max-width: $about-medium){
     max-width: 50%;
   }
   @media (min-width: $nav-medium+1px) and (max-width: $header-small){
@@ -147,10 +145,10 @@ $margin-header-inside: 1.2rem;
 
 .c-header-about_text{
   line-height: 1.6;
-  @media (max-width: $header-small){  //mobile
+  @media (max-width: $header-small){
     margin-bottom: 0;
   }
-  @media (min-width: $header-big){  //tablet + desktop + wide
+  @media (min-width: $header-big){
     text-align: left;
     font-size: 1rem;
     margin-top: 0.7rem;

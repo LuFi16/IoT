@@ -6,9 +6,7 @@
 
 .c-kontakty_heading{
   color: $color-white;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: 0.1rem 0 0.5rem 0;
   }
 }
@@ -16,11 +14,11 @@
 .c-kontakty_contacts{
   width: 100%;
   display: flex;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     flex-direction: column;
     align-items: center;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     justify-content: center;
     flex-direction: row;
   }
@@ -38,19 +36,18 @@
   a:hover{
     text-decoration: underline;
   }
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin: 0 0 2rem 0;
     width: 12rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: 1rem 2.4rem 1rem 2.4rem;
   }
-  @media (max-width: 800px){  //tablet + desktop + wide
+  @media (max-width: 800px){
     margin: 1rem 0.8rem;
   }
-  @media (max-width: 260px){  //tablet + desktop + wide
+  @media (max-width: 260px){
     width: 100%;
-    //margin: 0;
   }
 }
 
@@ -63,11 +60,11 @@
   align-items: center;
   justify-content: center;
   margin: 0;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     justify-content: center;
     padding: 0.7rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0.9rem 1.8rem 0.7rem 1.8rem;
   }
 }
@@ -75,10 +72,10 @@
 .c-kontakty-contact-name_logo{
   width: 1.7rem;
   height: auto;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0 0.5rem 0 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: 0;
     padding: 0 1rem 0 0;
   }
@@ -86,10 +83,10 @@
 
 .c-kontakty-contact_name{
   color: $color-contacts-text !important;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1rem 0 0.2rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.05rem 1.8rem 0.2rem 1.8rem;
     //line-height: 2.5;
     margin: 0;
@@ -98,19 +95,17 @@
 
 .c-kontakty-contact_mail{
   color: $color-contacts-text !important;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0 0 1rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0 1.8rem 1.3rem 1.8rem;
     margin: 0;
   }
 }
 
 .c-kontakty_contactlogo{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     p{
       padding: 0.65rem 1.8rem 0.4rem 1.8rem;
     }

@@ -1,14 +1,14 @@
 
-.c-nav{   //DO: CHECK OVERFLOW
+.c-nav{
   background-color: $color-white;
   @include c-box-shadow-light;
   padding: 0;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     box-sizing: border-box;
     width: 100%;
     margin: 0;
   }
-  @media (min-width: $nav-medium+1px){  //tablet + desktop + wide
+  @media (min-width: $nav-medium+1px){
     border-radius: 10px;
     margin: auto;
     width: 45rem;
@@ -23,11 +23,11 @@
 .c-nav_ul{
   margin: 0;
   padding: 0;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     flex-direction: column;
     text-align: center;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -36,10 +36,10 @@
 
 .c-nav_li{
   list-style-type: none;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     width: 100%;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.2rem 0;
   }
 }
@@ -49,12 +49,12 @@
   text-decoration: none;
   color: $color-black;
   width: 100%;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1rem;
     margin: 0;
     display: inline-block;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.2rem 2rem;
     font-size: 1.05rem;
   }

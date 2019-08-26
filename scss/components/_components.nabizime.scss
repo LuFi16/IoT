@@ -1,8 +1,6 @@
 
 .c-nabizime{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     button{
       margin-top: 2rem;
     }
@@ -13,10 +11,10 @@
   box-sizing: border-box;
   width: 100%;
   display: flex;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     flex-direction: column;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
@@ -26,10 +24,10 @@
 .c-nabizime_box{
   @include c-box-shadow;
   background-color: $color-white;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin: 0 0 2rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: 2rem 2rem 2.5rem 2rem;
     max-width: 27rem;
   }
@@ -41,14 +39,14 @@
   background-position: center;
   width: 100%;
   height: 12.5rem;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     display: inline-block;
     padding: 4rem;
   }
@@ -63,9 +61,7 @@
 }
 
 .c-nabizime-box_img{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin-bottom: 0.5rem;
     height: 3rem;
   }
@@ -75,10 +71,10 @@
   color: $color-white;
   text-transform: uppercase;
   @include font-primary;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin: 1rem 0 0 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: 0;
     padding: 0;
   }
@@ -86,10 +82,10 @@
 
 .c-nabizime-box_text{
   margin: 0;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.5rem 3rem;
   }
 }

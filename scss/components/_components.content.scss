@@ -3,35 +3,29 @@
 .c-content_section{
   border-bottom: 1px solid $color-border-line;
   text-align: center;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 2rem 0.7rem 4rem 0.7rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     width: 100%;
     padding: 1.5rem 0 4.5rem 0;
   }
 }
 
 #s-projekty{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding-top: 0.7rem;
   }
 }
 
 #s-akce{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding-bottom: 3rem;
   }
 }
 
 #s-clanky{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding-bottom: 3rem;
   }
 }
@@ -40,10 +34,6 @@
   color: $color-black;
   text-decoration: underline;
   font-weight: bold;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
-  }
 }
 .c-link:hover{
   color: transparentize($color-black, 0.5)
@@ -54,10 +44,6 @@
   text-decoration: none;
   font-weight: bold;
   cursor: default;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
-  }
 }
 
 
@@ -73,26 +59,20 @@
   font-size: 1.4rem;
   margin: 0;
   top: -2.7rem;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
-  }
 }
 
 .c-section_round-heading{
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1.5rem 0.7rem;
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
   }
 }
 
 .c-heading{
   font-size: 1.4rem;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin-bottom: 2rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0.1rem 2rem 2rem 2rem;
     margin: 0;
     display: inline-block;
@@ -102,10 +82,10 @@
 .c-heading-light{
   font-size: 1.4rem;
   color: $color-white;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin-bottom: 2rem;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0.1rem 2rem 2rem 2rem;
     margin: 0;
     display: inline-block;
@@ -113,26 +93,20 @@
 }
 
 .c-heading-first{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 0 3rem 0.5rem 3rem;
     margin: 0.5rem 0 0 0;
   }
 }
 
 .c-heading_clanky{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.5rem 0 3rem 0;
   }
 }
 
 .c-heading_podporovano{
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     margin: -0.3rem 0 0.4rem 0;
   }
 }
