@@ -2,9 +2,7 @@
 .c-akce{
   background-color: $color-black;
   color: $color-white;
-  @media (max-width: $mobile){  //mobile
-  }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     button{
       margin-top: 1.9rem;
       margin-bottom: 0;
@@ -18,10 +16,10 @@ $padding-akce: 1rem;
   background-color: $color-akce-bcg;
   border-radius: 0.3rem;
   border: 1px solid $color-akce-line;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $akce-tablet){
     padding: $padding-akce;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $akce-tablet+1px){
     max-width: 48rem;
     //margin-top: 0.8rem;
     padding: 1rem 1.3rem 2rem 1.3rem;
@@ -33,20 +31,20 @@ $padding-akce: 1rem;
   font-size: 1rem;
   @include font-primary;
   text-transform: uppercase;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $akce-tablet){
     margin: 0 0 1rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $akce-tablet+1px){
   }
 }
 
 .c-akce-box_text{
   font-size: 0.9rem;
   line-height: 1.8;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $akce-tablet){
     margin: 0 0 2rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $akce-tablet+1px){
     margin-top: 0.10rem;
     margin-bottom: 1.7rem;
   }
@@ -54,19 +52,20 @@ $padding-akce: 1rem;
 
 .c-akce-box_gallery{
   display: flex;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $akce-tablet){
     width: 100%;
     flex-wrap: wrap;
     margin: 0 0 1rem 0;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     img{
       max-width: calc(50% - (1rem/2));  //50% - ( $padding-akce / number of images in row )
       height: auto;
       margin: 0 0 $padding-akce 0;
+      padding: 0 0.5rem;
     }
   }
-  @media (max-width: $tiny){  //mobile
+  @media (max-width: 620px){
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -74,9 +73,10 @@ $padding-akce: 1rem;
       max-width: 100%;
       width: 100%;
       height: auto;
+      padding: 0;
     }
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $akce-tablet+1px){
     width: 45rem;
     margin: auto;
     flex-direction: row;
@@ -84,6 +84,10 @@ $padding-akce: 1rem;
     img{
       width: 13rem;
       height: auto;
+    }
+  }
+  @media (min-width: 621px) and (max-width: $akce-tablet){
+    img{
     }
   }
 }
