@@ -1,11 +1,11 @@
 
 .c-clanky_articles{
   display: flex;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     flex-direction: column;
     width: 100%;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     width: 83rem;
     flex-direction: row;
     justify-content: center;
@@ -20,26 +20,37 @@
 .c-clanky_article{
   display: flex;
   flex-direction: column;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     margin: 0 0 2rem 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     max-width: $max-content-size;
     text-align: left;
     margin: 0 1.4rem;
+  }
+  @media (min-width: $mobile+1px) and (max-width: $desktop+10px){
+    margin: auto;
   }
 }
 
 .c-clanky-article_heading{
   background-color: $color-black;
   color: $color-white;
+  //display: inline-block;
   @include font-primary-semibold;
   font-size: 0.75rem;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0;
     margin: 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $desktop+1px){
+    margin: 0 auto 0 0;
+    padding: 0.3rem 0.6rem;
+    position: relative;
+    top: 1rem;
+    left: -0.4rem;
+  }
+  @media (min-width: $mobile+1px) and (max-width: $desktop){
     margin: 0 auto 0 0;
     padding: 0.3rem 0.6rem;
     position: relative;
@@ -51,12 +62,12 @@
 .c-clanky-article_content{
   border: 1px solid $color-border-line;
   background-color: $color-light;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 0;
     margin: 0;
     border: none;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     display: flex;
     flex-direction: row;
     width: 29.5rem;
@@ -64,24 +75,24 @@
   }
 }
 .c-clanky-article_img-container{
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     height: 8rem;
     width: 100%;
     overflow: hidden;
     padding: 0;
     margin: 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
   }
 }
 
 .c-clanky-article_img{
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     width: 100%;
     height: 8rem;
     object-fit: cover;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     height: 8.5rem;
   }
 }
@@ -89,13 +100,13 @@
 .c-clanky-article-content_text{
   line-height: 1.39;
   font-size: 0.8rem;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
     padding: 1rem;
     margin: 0;
     border: 1px solid $color-border-line;
     border-top: none;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
     padding: 1.1rem 1rem 0 1rem;
     margin: 0;
   }
@@ -105,8 +116,8 @@
   color: $color-black;
   text-decoration: underline;
   font-weight: bold;
-  @media (max-width: $mobile){  //mobile
+  @media (max-width: $mobile){
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $mobile+1px){
   }
 }

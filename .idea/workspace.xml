@@ -4,8 +4,8 @@
     <list default="true" id="6efaf7e1-eba7-4fe1-8504-c9b41513edee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.kontakty.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.kontakty.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_components.kontakty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.kontakty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.clanky.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/3e6bbd8cd4b357eba9affc5d3f92e455c35c7b78/_components.clanky.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_components.clanky.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_components.clanky.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +22,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.50376505">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-5099">
-                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                <state relative-caret-position="222">
+                  <caret line="228" column="21" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/components/_components.general.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="64" selection-start-line="64" selection-end-line="64" selection-end-column="12" />
+                <state relative-caret-position="219">
+                  <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -53,11 +53,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+                <state relative-caret-position="565">
+                  <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/components/_components.clanky.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -90,13 +99,13 @@
         <option value="$PROJECT_DIR$/scss/components/_components.projekty.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.content.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/components/_components.clanky.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.navigation.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.header.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.podporovano.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.general.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.akce.scss" />
         <option value="$PROJECT_DIR$/scss/components/_components.kontakty.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_components.clanky.scss" />
       </list>
     </option>
   </component>
@@ -173,12 +182,12 @@
       <workItem from="1566312476065" duration="601000" />
       <workItem from="1566393344952" duration="28086000" />
       <workItem from="1566476873902" duration="9634000" />
-      <workItem from="1566812504893" duration="7396000" />
+      <workItem from="1566812504893" duration="8584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80225000" />
+    <option name="totallyTimeSpent" value="81413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -247,13 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.clanky.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_components.header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -265,13 +267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="64" selection-start-line="64" selection-end-line="64" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -289,17 +284,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5099">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="565">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_components.kontakty.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="222">
+          <caret line="228" column="21" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_components.clanky.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
         </state>
       </provider>
     </entry>
