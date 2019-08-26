@@ -217,6 +217,7 @@ $page-max-width: 44rem;
 .c-page{
   max-width: $page-max-width;
   margin: 7rem auto;
+  padding: 0 2rem;
   p{
     text-align: justify;
   }
@@ -228,9 +229,15 @@ $page-max-width: 44rem;
 
 .c-page_img{
   box-sizing: border-box;
-  max-width: $page-max-width;
   height: auto;
-  padding: 3rem 4rem;
+  @media (min-width: $page-content-small+1px){
+    max-width: $page-max-width;
+    padding: 3rem 4rem;
+  }
+  @media (max-width: $page-content-small){
+    width: 100%;
+    padding: 1rem 0;
+  }
 }
 
 .c-page_heading{

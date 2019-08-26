@@ -1034,7 +1034,8 @@ body {
 /* --- CONTENT --- */
 .c-page {
   max-width: 44rem;
-  margin: 7rem auto; }
+  margin: 7rem auto;
+  padding: 0 2rem; }
   .c-page p {
     text-align: justify; }
 
@@ -1043,9 +1044,15 @@ body {
 
 .c-page_img {
   box-sizing: border-box;
-  max-width: 44rem;
-  height: auto;
-  padding: 3rem 4rem; }
+  height: auto; }
+  @media (min-width: 781px) {
+    .c-page_img {
+      max-width: 44rem;
+      padding: 3rem 4rem; } }
+  @media (max-width: 780px) {
+    .c-page_img {
+      width: 100%;
+      padding: 1rem 0; } }
 
 .c-page_heading {
   color: #004c2e;
