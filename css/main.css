@@ -1056,7 +1056,8 @@ body {
 
 .c-page_heading {
   color: #004c2e;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 4rem; }
 
 .c-page_link {
   text-decoration: none;
