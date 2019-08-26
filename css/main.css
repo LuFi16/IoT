@@ -70,6 +70,40 @@ body {
     margin-bottom: 0.4rem;
     padding: 0.3rem 0.4rem 0.1rem 0.4rem; } }
 
+/*.test{ //c-header
+  box-sizing: border-box;
+  //background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  background-image: url("../img/header-img.png");
+  background-color: $color-img-header;
+  color: $color-white;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.test2{  //c-header_main
+  box-sizing: border-box;
+  //background-color: #fdab29;
+  width: auto;
+}
+
+.test3{  //c-header_about
+  box-sizing: border-box;
+  //background-color: lightcoral;
+  width: 53.5rem;
+  padding: 5rem;
+
+
+  background-color: $color-primary;
+  !*position: absolute;
+  right: 0;*!
+  border-radius: 25% 0 0 25% / 100% 0 0 100% ;
+}*/
 .c-header {
   background-image: url("../img/header-img.png");
   background-color: #69878c;
@@ -85,21 +119,13 @@ body {
   @media (min-width: 1200px) {
     .c-header {
       flex-direction: row;
+      justify-content: space-between;
       background-size: cover;
       background-position: center;
       padding: 0; } }
   @media (min-width: 960px) and (max-width: 1199px) {
     .c-header {
       background-size: 80rem; } }
-  @media (min-width: 1377px) and (max-width: 1450px) {
-    .c-header {
-      padding-bottom: 3rem; } }
-  @media (min-width: 1278px) and (max-width: 1376px) {
-    .c-header {
-      padding-bottom: 4.5rem; } }
-  @media (min-width: 1200px) and (max-width: 1277px) {
-    .c-header {
-      padding-bottom: 6rem; } }
   @media (max-width: 370px) {
     .c-header {
       background-size: 90rem; } }
@@ -178,8 +204,8 @@ body {
     .c-header_about {
       padding: 4.55rem 5rem 3.1rem 5rem;
       width: 53.5rem;
-      position: absolute;
-      right: 0;
+      /*position: absolute;
+      right: 0;*/
       border-radius: 25% 0 0 25%/100% 0 0 100%;
       /*background-image: url("../img/header-background.svg");
       background-repeat: no-repeat;
