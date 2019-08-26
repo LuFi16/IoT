@@ -372,6 +372,11 @@ body {
     column-count: 3;
     column-gap: 2.5rem;
     text-align: center; } }
+@media (min-width: 651px) and (max-width: 1200px) {
+  .c-projekty_boxes {
+    column-count: 2;
+    column-gap: 2.5rem;
+    margin: 0 2.5rem; } }
 
 .c-projekty_box {
   box-shadow: 0 0 15px 0 #bababa; }
