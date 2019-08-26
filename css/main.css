@@ -70,6 +70,13 @@ body {
     margin-bottom: 0.4rem;
     padding: 0.3rem 0.4rem 0.1rem 0.4rem; } }
 
+.c-btn-article-hdr {
+  background-color: #fdab29;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.3rem 0.5rem; }
+
 .c-header {
   background-image: url("../img/header-img.png");
   background-color: #69878c;
@@ -170,12 +177,7 @@ body {
     .c-header_about {
       padding: 4.55rem 5rem 3.1rem 5rem;
       width: 53.5rem;
-      /*position: absolute;
-      right: 0;*/
-      border-radius: 25% 0 0 25%/100% 0 0 100%;
-      /*background-image: url("../img/header-background.svg");
-      background-repeat: no-repeat;
-      background-position: left top;*/ } }
+      border-radius: 25% 0 0 25%/100% 0 0 100%; } }
   @media (min-width: 1200px) and (max-width: 1450px) {
     .c-header_about {
       max-width: 50%; } }
@@ -848,52 +850,89 @@ body {
   .c-kontakty_contactlogo .c-kontakty-contact_mail {
     padding: 0 1rem 1rem 1rem; } }
 
-.c-page {
-  max-width: 44rem;
-  margin: auto; }
-  .c-page p {
-    text-align: justify; }
+/* --- HEADER ---*/
+.c-page_header {
+  background-image: url("../img/pages/img-header.png");
+  background-color: #69878c;
+  color: #ffffff;
+  display: flex;
+  margin: 0; }
+  @media (max-width: 1199px) {
+    .c-page_header {
+      flex-direction: column;
+      background-size: 60rem;
+      background-position: center top;
+      background-repeat: no-repeat; } }
+  @media (min-width: 1200px) {
+    .c-page_header {
+      flex-direction: row;
+      justify-content: space-between;
+      background-size: cover;
+      background-position: center;
+      padding: 0; } }
+  @media (min-width: 960px) and (max-width: 1199px) {
+    .c-page_header {
+      background-size: 80rem; } }
+  @media (max-width: 370px) {
+    .c-page_header {
+      background-size: 90rem; } }
+  @media (max-width: 280px) {
+    .c-page_header {
+      background-size: 100rem; } }
+  @media (max-width: 259px) {
+    .c-page_header {
+      background-size: 110rem; } }
 
-.c-page-center {
-  text-align: center; }
+@media (min-width: 1200px) {
+  .c-page-hdr_main {
+    padding: 9.6rem 0 5rem 10.3rem; } }
 
-.c-page_img {
-  box-sizing: border-box;
-  max-width: 44rem;
-  height: auto;
-  padding: 3rem 4rem; }
+.c-page-hdr_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media (max-width: 1199px) {
+    .c-page-hdr_about {
+      padding: 2rem; } }
+  @media (min-width: 1200px) {
+    .c-page-hdr_about {
+      padding: 7.55rem 5rem 3.1rem 5rem; } }
 
-.c-page_heading {
-  color: #004c2e;
+.c-page-hdr-about_contact {
+  background-color: rgba(0, 0, 0, 0.16);
+  padding: 1rem 1.5rem; }
+  .c-page-hdr-about_contact p {
+    padding: 0;
+    margin: 0; }
+
+.c-page-hdr_heading {
   text-transform: uppercase; }
 
-.c-page_link {
-  text-decoration: none;
-  color: #000000; }
+.c-page-hdr_link {
+  color: #ffffff;
+  text-decoration: none; }
 
-.c-page_link:hover {
+.c-page-hdr_link:hover {
   text-decoration: underline; }
 
+.c-page-hdr_bold {
+  font-family: "c-Titilium-bold", sans-serif; }
+
+.c-page-hdr-about-contact_pad-bot {
+  margin-bottom: 1rem; }
+
+.c-page-hdr-about_partner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; }
+  .c-page-hdr-about_partner p {
+    padding-right: 1rem; }
+  .c-page-hdr-about_partner img {
+    height: 4rem; }
+
 /* --- NAVIGATION ---*/
-/*.c-page_nav{
-  background-color: $color-white;
-  padding: 0;
-  @media (max-width: $mobile){
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0;
-  }
-  @media (min-width: $nav-medium+1px){
-    border-radius: 10px;
-    width: 55rem;
-    position: absolute;
-    top: 0;
-    //margin: auto;
-  }
-  @media (min-width: $mobile+1px) and (max-width: $nav-medium){
-    width: 100%;
-  }
-}*/
 .c-page_nav {
   background-color: #ffffff;
   border-radius: 10px;
@@ -953,5 +992,32 @@ body {
 
 .c-page-nav-li_a-main:hover {
   background-color: rgba(3, 128, 0, 0.2); }
+
+/* --- CONTENT --- */
+.c-page {
+  max-width: 44rem;
+  margin: 7rem auto; }
+  .c-page p {
+    text-align: justify; }
+
+.c-page-center {
+  text-align: center; }
+
+.c-page_img {
+  box-sizing: border-box;
+  max-width: 44rem;
+  height: auto;
+  padding: 3rem 4rem; }
+
+.c-page_heading {
+  color: #004c2e;
+  text-transform: uppercase; }
+
+.c-page_link {
+  text-decoration: none;
+  color: #000000; }
+
+.c-page_link:hover {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

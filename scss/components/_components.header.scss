@@ -22,7 +22,6 @@
   @media (min-width: 960px) and (max-width: $header-small){
     background-size: 80rem;
   }
-
   @media (max-width: 370px){
     background-size: 90rem;
   }
@@ -112,13 +111,7 @@ $margin-header-inside: 1.2rem;
   @media (min-width: $header-big){
     padding: 4.55rem 5rem 3.1rem 5rem;
     width: 53.5rem;
-    /*position: absolute;
-    right: 0;*/
     border-radius: 25% 0 0 25% / 100% 0 0 100% ;
-    //border-radius: 10% 90% 0 100% / 100% 0 100% 0;
-    /*background-image: url("../img/header-background.svg");
-    background-repeat: no-repeat;
-    background-position: left top;*/
   }
   @media (min-width: $header-big) and (max-width: $about-medium){
     max-width: 50%;
