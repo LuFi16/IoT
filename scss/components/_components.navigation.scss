@@ -34,13 +34,15 @@
   }
 }
 
+$nav-lia-padding: 1.2rem;
+
 .c-nav_li{
   list-style-type: none;
   @media (max-width: $mobile){
     width: 100%;
   }
   @media (min-width: $mobile+1px){
-    padding: 1.2rem 0;
+    padding: $nav-lia-padding 0;
   }
 }
 
@@ -55,7 +57,7 @@
     display: inline-block;
   }
   @media (min-width: $mobile+1px){
-    padding: 1.2rem 2rem;
+    padding: $nav-lia-padding 2rem;
     font-size: 1.05rem;
   }
 }
