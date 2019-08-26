@@ -1,0 +1,34 @@
+
+$page-max-width: 44rem;
+
+.c-page{
+  max-width: $page-max-width;
+  margin: auto;
+  p{
+    text-align: justify;
+  }
+}
+
+.c-page-center{
+  text-align: center;
+}
+
+.c-page_img{
+  box-sizing: border-box;
+  max-width: $page-max-width;
+  height: auto;
+  padding: 3rem 4rem;
+}
+
+.c-page_heading{
+  color: $color-page-heading;
+  text-transform: uppercase;
+}
+
+.c-page_link{
+  text-decoration: none;
+  color: $color-black;
+}
+.c-page_link:hover{
+  text-decoration: underline;
+}

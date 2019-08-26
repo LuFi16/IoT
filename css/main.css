@@ -856,4 +856,30 @@ body {
   .c-kontakty_contactlogo .c-kontakty-contact_mail {
     padding: 0 1rem 1rem 1rem; } }
 
+.c-page {
+  max-width: 44rem;
+  margin: auto; }
+  .c-page p {
+    text-align: justify; }
+
+.c-page-center {
+  text-align: center; }
+
+.c-page_img {
+  box-sizing: border-box;
+  max-width: 44rem;
+  height: auto;
+  padding: 3rem 4rem; }
+
+.c-page_heading {
+  color: #004c2e;
+  text-transform: uppercase; }
+
+.c-page_link {
+  text-decoration: none;
+  color: #000000; }
+
+.c-page_link:hover {
+  text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */
