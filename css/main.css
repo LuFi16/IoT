@@ -60,26 +60,48 @@ body {
   color: #ffffff;
   display: flex;
   margin: 0; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header {
       flex-direction: column;
       background-size: 60rem;
       background-position: center top;
       background-repeat: no-repeat; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header {
       flex-direction: row;
-      padding-bottom: 0.5rem;
-      background-size: auto 100%; } }
+      background-size: cover;
+      background-position: center;
+      padding: 0; } }
+  @media (min-width: 960px) and (max-width: 1199px) {
+    .c-header {
+      background-size: 80rem; } }
+  @media (min-width: 1377px) and (max-width: 1450px) {
+    .c-header {
+      padding-bottom: 3rem; } }
+  @media (min-width: 1278px) and (max-width: 1376px) {
+    .c-header {
+      padding-bottom: 4.5rem; } }
+  @media (min-width: 1200px) and (max-width: 1277px) {
+    .c-header {
+      padding-bottom: 6rem; } }
+  @media (max-width: 370px) {
+    .c-header {
+      background-size: 90rem; } }
+  @media (max-width: 280px) {
+    .c-header {
+      background-size: 100rem; } }
+  @media (max-width: 259px) {
+    .c-header {
+      background-size: 110rem; } }
 
 /* --- LIFE SCIENCES --- */
 .c-header_main {
   box-sizing: border-box; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header_main {
       text-align: center;
       margin: 2rem 1rem; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header_main {
       width: auto;
       padding: 6.6rem 0 5rem 10.3rem; } }
@@ -87,11 +109,11 @@ body {
 .c-header-main_heading {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header-main_heading {
       font-size: 3rem;
       margin: 0; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header-main_heading {
       margin: 0 0 -0.5rem 0;
       font-size: 3rem; } }
@@ -100,24 +122,24 @@ body {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
   margin: 0 0 1.2rem 0; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header-main_subheading {
       font-size: 1.8rem; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header-main_subheading {
       font-size: 1.8rem; } }
 
-@media (min-width: 651px) {
+@media (min-width: 1200px) {
   .c-header-main_logos {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: -0.1rem; } }
 
-@media (max-width: 650px) {
+@media (max-width: 1199px) {
   .c-header-main_logo {
     margin: 1.2rem; } }
-@media (min-width: 651px) {
+@media (min-width: 1200px) {
   .c-header-main_logo {
     margin: 4rem 2rem 0 0; } }
 
@@ -133,12 +155,12 @@ body {
 .c-header_about {
   box-sizing: border-box;
   background-color: #038000; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header_about {
       padding: 2rem; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header_about {
-      padding: 4.55rem 5rem 2.1rem 5rem;
+      padding: 4.55rem 5rem 3.1rem 5rem;
       width: 53.5rem;
       position: absolute;
       right: 0;
@@ -146,6 +168,12 @@ body {
       /*background-image: url("../img/header-background.svg");
       background-repeat: no-repeat;
       background-position: left top;*/ } }
+  @media (min-width: 1200px) and (max-width: 1450px) {
+    .c-header_about {
+      max-width: 50%; } }
+  @media (min-width: 801px) and (max-width: 1199px) {
+    .c-header_about {
+      padding-bottom: 5rem; } }
 
 .c-header-about_heading {
   margin: 0;
@@ -153,10 +181,10 @@ body {
 
 .c-header-about_text {
   line-height: 1.6; }
-  @media (max-width: 650px) {
+  @media (max-width: 1199px) {
     .c-header-about_text {
       margin-bottom: 0; } }
-  @media (min-width: 651px) {
+  @media (min-width: 1200px) {
     .c-header-about_text {
       text-align: left;
       font-size: 1rem;
@@ -177,13 +205,16 @@ body {
       box-sizing: border-box;
       width: 100%;
       margin: 0; } }
-  @media (min-width: 651px) {
+  @media (min-width: 801px) {
     .c-nav {
       border-radius: 10px;
       margin: auto;
       width: 45rem;
       position: relative;
       top: -1.7rem; } }
+  @media (min-width: 651px) and (max-width: 800px) {
+    .c-nav {
+      width: 100%; } }
 
 .c-nav_ul {
   margin: 0;

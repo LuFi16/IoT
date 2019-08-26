@@ -8,12 +8,15 @@
     width: 100%;
     margin: 0;
   }
-  @media (min-width: $mobile+1px){  //tablet + desktop + wide
+  @media (min-width: $nav-medium+1px){  //tablet + desktop + wide
     border-radius: 10px;
     margin: auto;
     width: 45rem;
     position: relative;
     top: -1.7rem;
+  }
+  @media (min-width: $mobile+1px) and (max-width: $nav-medium){
+    width: 100%;
   }
 }
 
