@@ -111,7 +111,9 @@ $margin-header-inside: 1.2rem;
   @media (min-width: $header-big){
     padding: 4.55rem 5rem 3.1rem 5rem;
     width: 53.5rem;
-    border-radius: 25% 0 0 25% / 100% 0 0 100% ;
+    //border-radius: 25% 0 0 25% / 100% 0 0 100%;
+    clip-path: ellipse(64% 100% at 64% 50%);
+
   }
   @media (min-width: $header-big) and (max-width: $about-medium){
     max-width: 50%;
