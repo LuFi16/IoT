@@ -412,7 +412,6 @@ body {
   font-family: "Titillium Web Semibold", sans-serif;
   font-weight: 500;
   color: #ffffff;
-  background-image: url("../img/articles/img-article3.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -423,6 +422,27 @@ body {
   margin: 0;
   padding: 1rem;
   width: 100%; }
+
+.c-projekty_heading-1 {
+  background-image: url("../img/articles/art1.png"); }
+
+.c-projekty_heading-2 {
+  background-image: url("../img/articles/art2.png"); }
+
+.c-projekty_heading-3 {
+  background-image: url("../img/articles/art3.png"); }
+
+.c-projekty_heading-4 {
+  background-image: url("../img/articles/art4.png"); }
+
+.c-projekty_heading-5 {
+  background-image: url("../img/articles/img-article3.png"); }
+
+.c-projekty_heading-6 {
+  background-image: url("../img/articles/art6.png"); }
+
+.c-projekty_heading-7 {
+  background-image: url("../img/articles/art7.png"); }
 
 .c-projekty_text {
   line-height: 1.5; }
